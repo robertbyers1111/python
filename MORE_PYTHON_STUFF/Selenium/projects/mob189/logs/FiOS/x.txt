@@ -1,0 +1,1937 @@
+/ # ls -lR bin/ etc/ home lib/ sys/ tmp/ var
+lrwxrwxrwx    1 0        0              16 Dec 31  1969 home -> /mnt/cramfs/home
+
+bin/:
+lrwxrwxrwx    1 0        0              27 Dec 31  1969 80211debug -> /mnt/cramfs//bin/80211debug
+lrwxrwxrwx    1 0        0              27 Dec 31  1969 80211stats -> /mnt/cramfs//bin/80211stats
+lrwxrwxrwx    1 0        0              30 Dec 31  1969 EN2510_clinkd -> /mnt/cramfs//bin/EN2510_clinkd
+lrwxrwxrwx    1 0        0              32 Dec 31  1969 EN2510_clnkstat -> /mnt/cramfs//bin/EN2510_clnkstat
+lrwxrwxrwx    1 0        0              23 Dec 31  1969 act_nf -> /mnt/cramfs//bin/act_nf
+lrwxrwxrwx    1 0        0              30 Dec 31  1969 act_nf_icmpv6 -> /mnt/cramfs//bin/act_nf_icmpv6
+lrwxrwxrwx    1 0        0              28 Dec 31  1969 aei_nf_show -> /mnt/cramfs//bin/aei_nf_show
+lrwxrwxrwx    1 0        0              20 Dec 31  1969 arp -> /mnt/cramfs//bin/arp
+lrwxrwxrwx    1 0        0              28 Dec 31  1969 athampdutrc -> /mnt/cramfs//bin/athampdutrc
+lrwxrwxrwx    1 0        0              25 Dec 31  1969 athchans -> /mnt/cramfs//bin/athchans
+lrwxrwxrwx    1 0        0              24 Dec 31  1969 athctrl -> /mnt/cramfs//bin/athctrl
+lrwxrwxrwx    1 0        0              23 Dec 31  1969 athcwm -> /mnt/cramfs//bin/athcwm
+lrwxrwxrwx    1 0        0              25 Dec 31  1969 athdebug -> /mnt/cramfs//bin/athdebug
+lrwxrwxrwx    1 0        0              23 Dec 31  1969 athkey -> /mnt/cramfs//bin/athkey
+lrwxrwxrwx    1 0        0              25 Dec 31  1969 athstats -> /mnt/cramfs//bin/athstats
+lrwxrwxrwx    1 0        0              28 Dec 31  1969 athstatsclr -> /mnt/cramfs//bin/athstatsclr
+lrwxrwxrwx    1 0        0              21 Dec 31  1969 atrc -> /mnt/cramfs//bin/atrc
+lrwxrwxrwx    1 0        0              24 Dec 31  1969 busybox -> /mnt/cramfs//bin/busybox
+lrwxrwxrwx    1 0        0              23 Dec 31  1969 cat -> /mnt/cramfs/bin/busybox
+lrwxrwxrwx    1 0        0              23 Dec 31  1969 chgrp -> /mnt/cramfs/bin/busybox
+lrwxrwxrwx    1 0        0              23 Dec 31  1969 chmod -> /mnt/cramfs/bin/busybox
+lrwxrwxrwx    1 0        0              23 Dec 31  1969 chown -> /mnt/cramfs/bin/busybox
+-rwxr-xr-x    1 0        0           12332 Dec 31  1969 cli
+lrwxrwxrwx    1 0        0              23 Dec 31  1969 cp -> /mnt/cramfs/bin/busybox
+-rwxr-xr-x    1 0        0          432216 Dec 31  1969 data_center
+-rwxr-xr-x    1 0        0          266184 Dec 31  1969 dbus-daemon
+lrwxrwxrwx    1 0        0              23 Dec 31  1969 dd -> /mnt/cramfs/bin/busybox
+lrwxrwxrwx    1 0        0              23 Dec 31  1969 df -> /mnt/cramfs/bin/busybox
+lrwxrwxrwx    1 0        0              26 Dec 31  1969 dhcp6_ctl -> /mnt/cramfs//bin/dhcp6_ctl
+lrwxrwxrwx    1 0        0              23 Dec 31  1969 dhcp6c -> /mnt/cramfs//bin/dhcp6c
+lrwxrwxrwx    1 0        0              27 Dec 31  1969 dhcp6relay -> /mnt/cramfs//bin/dhcp6relay
+lrwxrwxrwx    1 0        0              23 Dec 31  1969 dhcp6s -> /mnt/cramfs//bin/dhcp6s
+lrwxrwxrwx    1 0        0              23 Dec 31  1969 echo -> /mnt/cramfs/bin/busybox
+lrwxrwxrwx    1 0        0              23 Dec 31  1969 free -> /mnt/cramfs/bin/busybox
+lrwxrwxrwx    1 0        0              24 Dec 31  1969 genduid -> /mnt/cramfs//bin/genduid
+lrwxrwxrwx    1 0        0              24 Dec 31  1969 haproxy -> /mnt/cramfs//bin/haproxy
+lrwxrwxrwx    1 0        0              24 Dec 31  1969 hostapd -> /mnt/cramfs//bin/hostapd
+lrwxrwxrwx    1 0        0              24 Dec 31  1969 hotplug -> /mnt/cramfs//bin/hotplug
+lrwxrwxrwx    1 0        0              23 Dec 31  1969 ifconfig -> /mnt/cramfs/bin/busybox
+lrwxrwxrwx    1 0        0              25 Dec 31  1969 ifrename -> /mnt/cramfs//bin/ifrename
+lrwxrwxrwx    1 0        0              23 Dec 31  1969 ifstat -> /mnt/cramfs//bin/ifstat
+lrwxrwxrwx    1 0        0              21 Dec 31  1969 init -> /mnt/cramfs//bin/init
+lrwxrwxrwx    1 0        0              23 Dec 31  1969 insmod -> /mnt/cramfs/bin/busybox
+lrwxrwxrwx    1 0        0              19 Dec 31  1969 ip -> /mnt/cramfs//bin/ip
+lrwxrwxrwx    1 0        0              26 Dec 31  1969 ip6tables -> /mnt/cramfs//bin/ip6tables
+lrwxrwxrwx    1 0        0              25 Dec 31  1969 iwconfig -> /mnt/cramfs//bin/iwconfig
+lrwxrwxrwx    1 0        0              24 Dec 31  1969 iwevent -> /mnt/cramfs//bin/iwevent
+lrwxrwxrwx    1 0        0              24 Dec 31  1969 iwgetid -> /mnt/cramfs//bin/iwgetid
+lrwxrwxrwx    1 0        0              23 Dec 31  1969 iwlist -> /mnt/cramfs//bin/iwlist
+lrwxrwxrwx    1 0        0              23 Dec 31  1969 iwpriv -> /mnt/cramfs//bin/iwpriv
+lrwxrwxrwx    1 0        0              22 Dec 31  1969 iwspy -> /mnt/cramfs//bin/iwspy
+lrwxrwxrwx    1 0        0              23 Dec 31  1969 kill -> /mnt/cramfs/bin/busybox
+lrwxrwxrwx    1 0        0              23 Dec 31  1969 killall -> /mnt/cramfs/bin/busybox
+lrwxrwxrwx    1 0        0              23 Dec 31  1969 lash -> /mnt/cramfs/bin/busybox
+lrwxrwxrwx    1 0        0              23 Dec 31  1969 ln -> /mnt/cramfs/bin/busybox
+lrwxrwxrwx    1 0        0              23 Dec 31  1969 lnstat -> /mnt/cramfs//bin/lnstat
+lrwxrwxrwx    1 0        0              23 Dec 31  1969 ls -> /mnt/cramfs/bin/busybox
+lrwxrwxrwx    1 0        0              23 Dec 31  1969 lsmod -> /mnt/cramfs/bin/busybox
+lrwxrwxrwx    1 0        0              23 Dec 31  1969 mkdir -> /mnt/cramfs/bin/busybox
+lrwxrwxrwx    1 0        0              23 Dec 31  1969 mknod -> /mnt/cramfs/bin/busybox
+lrwxrwxrwx    1 0        0              23 Dec 31  1969 mkswap -> /mnt/cramfs/bin/busybox
+lrwxrwxrwx    1 0        0              20 Dec 31  1969 mld -> /mnt/cramfs//bin/mld
+lrwxrwxrwx    1 0        0              23 Dec 31  1969 mount -> /mnt/cramfs/bin/busybox
+lrwxrwxrwx    1 0        0              23 Dec 31  1969 mv -> /mnt/cramfs/bin/busybox
+lrwxrwxrwx    1 0        0              34 Dec 31  1969 nand_update_uboot -> /mnt/cramfs//bin/nand_update_uboot
+lrwxrwxrwx    1 0        0              22 Dec 31  1969 nstat -> /mnt/cramfs//bin/nstat
+lrwxrwxrwx    1 0        0              23 Dec 31  1969 openrg -> /mnt/cramfs//bin/openrg
+lrwxrwxrwx    1 0        0              23 Dec 31  1969 ping -> /mnt/cramfs/bin/busybox
+lrwxrwxrwx    1 0        0              22 Dec 31  1969 ping6 -> /mnt/cramfs//bin/ping6
+lrwxrwxrwx    1 0        0              27 Dec 31  1969 pktlogconf -> /mnt/cramfs//bin/pktlogconf
+lrwxrwxrwx    1 0        0              27 Dec 31  1969 pktlogdump -> /mnt/cramfs//bin/pktlogdump
+-rwxr-xr-x    1 0        0           16832 Dec 31  1969 pmd
+lrwxrwxrwx    1 0        0              23 Dec 31  1969 ps -> /mnt/cramfs/bin/busybox
+lrwxrwxrwx    1 0        0              26 Dec 31  1969 radartool -> /mnt/cramfs//bin/radartool
+lrwxrwxrwx    1 0        0              22 Dec 31  1969 radvd -> /mnt/cramfs//bin/radvd
+lrwxrwxrwx    1 0        0              23 Dec 31  1969 rm -> /mnt/cramfs/bin/busybox
+lrwxrwxrwx    1 0        0              23 Dec 31  1969 rmdir -> /mnt/cramfs/bin/busybox
+lrwxrwxrwx    1 0        0              23 Dec 31  1969 rmmod -> /mnt/cramfs/bin/busybox
+lrwxrwxrwx    1 0        0              23 Dec 31  1969 route -> /mnt/cramfs/bin/busybox
+lrwxrwxrwx    1 0        0              23 Dec 31  1969 rtacct -> /mnt/cramfs//bin/rtacct
+-rwxr-xr-x    1 0        0           65344 Dec 31  1969 rtd
+lrwxrwxrwx    1 0        0              22 Dec 31  1969 rtmon -> /mnt/cramfs//bin/rtmon
+lrwxrwxrwx    1 0        0              23 Dec 31  1969 sh -> /mnt/cramfs/bin/busybox
+lrwxrwxrwx    1 0        0              23 Dec 31  1969 sort -> /mnt/cramfs/bin/busybox
+lrwxrwxrwx    1 0        0              29 Dec 31  1969 spectraldemo -> /mnt/cramfs//bin/spectraldemo
+lrwxrwxrwx    1 0        0              29 Dec 31  1969 spectraltool -> /mnt/cramfs//bin/spectraltool
+lrwxrwxrwx    1 0        0              23 Dec 31  1969 stty -> /mnt/cramfs/bin/busybox
+lrwxrwxrwx    1 0        0              23 Dec 31  1969 swapoff -> /mnt/cramfs/bin/busybox
+lrwxrwxrwx    1 0        0              23 Dec 31  1969 swapon -> /mnt/cramfs/bin/busybox
+lrwxrwxrwx    1 0        0              23 Dec 31  1969 sync -> /mnt/cramfs/bin/busybox
+lrwxrwxrwx    1 0        0              23 Dec 31  1969 sysctl -> /mnt/cramfs/bin/busybox
+lrwxrwxrwx    1 0        0              19 Dec 31  1969 tc -> /mnt/cramfs//bin/tc
+lrwxrwxrwx    1 0        0              27 Dec 31  1969 testClient -> /mnt/cramfs//bin/testClient
+lrwxrwxrwx    1 0        0              23 Dec 31  1969 tftp -> /mnt/cramfs/bin/busybox
+lrwxrwxrwx    1 0        0              23 Dec 31  1969 top -> /mnt/cramfs/bin/busybox
+lrwxrwxrwx    1 0        0              21 Dec 31  1969 totd -> /mnt/cramfs//bin/totd
+lrwxrwxrwx    1 0        0              23 Dec 31  1969 tr143c -> /mnt/cramfs//bin/tr143c
+-rwxr-xr-x    1 0        0          187076 Dec 31  1969 tr69
+-rwxr-xr-x    1 0        0          299724 Dec 31  1969 tr69_cfg
+lrwxrwxrwx    1 0        0              23 Dec 31  1969 umount -> /mnt/cramfs/bin/busybox
+lrwxrwxrwx    1 0        0              23 Dec 31  1969 uptime -> /mnt/cramfs/bin/busybox
+lrwxrwxrwx    1 0        0              24 Dec 31  1969 vconfig -> /mnt/cramfs//bin/vconfig
+lrwxrwxrwx    1 0        0              27 Dec 31  1969 wlanconfig -> /mnt/cramfs//bin/wlanconfig
+lrwxrwxrwx    1 0        0              24 Dec 31  1969 wpatalk -> /mnt/cramfs//bin/wpatalk
+lrwxrwxrwx    1 0        0              23 Dec 31  1969 wsccmd -> /mnt/cramfs//bin/wsccmd
+lrwxrwxrwx    1 0        0              21 Dec 31  1969 xget -> /mnt/cramfs//bin/xget
+-rwxr-xr-x    1 0        0           47748 Dec 31  1969 zip
+
+etc/:
+lrwxrwxrwx    1 0        0              47 Dec 31  1969 EN2510.1.08.02.21_dic_gphy.bin -> /mnt/cramfs//etc/EN2510.1.08.02.21_dic_gphy.bin
+lrwxrwxrwx    1 0        0              42 Dec 31  1969 EN2510.1.08.02.21_soc.bin -> /mnt/cramfs//etc/EN2510.1.08.02.21_soc.bin
+lrwxrwxrwx    1 0        0              30 Dec 31  1969 EN2510_dic.bin -> EN2510.1.08.02.21_dic_gphy.bin
+lrwxrwxrwx    1 0        0              25 Dec 31  1969 EN2510_soc.bin -> EN2510.1.08.02.21_soc.bin
+-rw-r--r--    1 0        0              46 Apr 24 14:49 TZ
+-rw-r--r--    1 0        0           39977 Dec 31  1969 cfg.xml
+-rw-r--r--    1 0        0             530 Dec 14  2007 clink.conf.clink0
+-rw-r--r--    1 0        0             544 Dec 14  2007 clink.conf.clink1
+drwxr-xr-x    4 0        0               0 Dec 31  1969 dbus
+lrwxrwxrwx    1 0        0              26 Dec 31  1969 feic.conf -> /mnt/cramfs//etc/feic.conf
+drwxr-xr-x    2 0        0               0 Dec 14  2007 hostapd
+lrwxrwxrwx    1 0        0              22 Dec 31  1969 hosts -> /mnt/cramfs//etc/hosts
+lrwxrwxrwx    1 0        0              25 Dec 31  1969 iproute2 -> /mnt/cramfs//etc/iproute2
+lrwxrwxrwx    1 0        0              30 Dec 31  1969 nsswitch.conf -> /mnt/cramfs//etc/nsswitch.conf
+lrwxrwxrwx    1 0        0              26 Dec 31  1969 protocols -> /mnt/cramfs//etc/protocols
+-rwxr-xr-x    1 0        0           45763 Dec 31  1969 protype.xml
+-rw-r--r--    1 0        0               1 Dec 31  1999 rerun
+lrwxrwxrwx    1 0        0              28 Dec 31  1969 resolv.conf -> /mnt/cramfs//etc/resolv.conf
+lrwxrwxrwx    1 0        0              25 Dec 31  1969 services -> /mnt/cramfs//etc/services
+lrwxrwxrwx    1 0        0              42 Dec 31  1969 uboot-revI-128MbFlash.bin -> /mnt/cramfs//etc/uboot-revI-128MbFlash.bin
+
+etc/dbus:
+-rwxr-xr-x    1 0        0            2771 Dec 31  1969 session.conf
+drwxr-xr-x    2 0        0               0 Dec 31  1969 session.d
+-rwxr-xr-x    1 0        0            3089 Dec 31  1969 system.conf
+drwxr-xr-x    2 0        0               0 Dec 31  1969 system.d
+
+etc/dbus/session.d:
+
+etc/dbus/system.d:
+
+etc/hostapd:
+-rw-r--r--    1 0        0              15 Dec 31  1969 80211g.ap_radio
+-rw-r--r--    1 0        0              43 Dec 14  2007 hostapd.eap_user
+-rw-r--r--    1 0        0             579 Dec 31  1969 topology_ap.conf
+-rw-r--r--    1 0        0             846 Dec 31  1969 wpa-ap.conf
+-rw-r--r--    1 0        0            1298 Dec 14  2007 wpa-ath0.conf
+
+lib/:
+lrwxrwxrwx    1 0        0              36 Dec 31  1969 ld-uClibc-0.9.29.so -> /mnt/cramfs//lib/ld-uClibc-0.9.29.so
+lrwxrwxrwx    1 0        0              35 Dec 31  1969 ld-uClibc.so -> /mnt/cramfs/lib/ld-uClibc-0.9.29.so
+lrwxrwxrwx    1 0        0              35 Dec 31  1969 ld-uClibc.so.0 -> /mnt/cramfs/lib/ld-uClibc-0.9.29.so
+lrwxrwxrwx    1 0        0              37 Dec 31  1969 libEN2510_clnkapi.so -> /mnt/cramfs//lib/libEN2510_clnkapi.so
+lrwxrwxrwx    1 0        0              35 Dec 31  1969 libc.so.0 -> /mnt/cramfs/lib/libuClibc-0.9.29.so
+lrwxrwxrwx    1 0        0              35 Dec 31  1969 libcrypt-0.9.29.so -> /mnt/cramfs//lib/libcrypt-0.9.29.so
+lrwxrwxrwx    1 0        0              34 Dec 31  1969 libcrypt.so -> /mnt/cramfs/lib/libcrypt-0.9.29.so
+lrwxrwxrwx    1 0        0              34 Dec 31  1969 libcrypt.so.0 -> /mnt/cramfs/lib/libcrypt-0.9.29.so
+lrwxrwxrwx    1 0        0              29 Dec 31  1969 libcrypto.so -> /mnt/cramfs//lib/libcrypto.so
+-rwxr-xr-x    1 0        0          526458 Dec 31  1969 libdbus.so
+lrwxrwxrwx    1 0        0              32 Dec 31  1969 libdl-0.9.29.so -> /mnt/cramfs//lib/libdl-0.9.29.so
+lrwxrwxrwx    1 0        0              31 Dec 31  1969 libdl.so -> /mnt/cramfs/lib/libdl-0.9.29.so
+lrwxrwxrwx    1 0        0              31 Dec 31  1969 libdl.so.0 -> /mnt/cramfs/lib/libdl-0.9.29.so
+lrwxrwxrwx    1 0        0              25 Dec 31  1969 libiw.so -> /mnt/cramfs//lib/libiw.so
+lrwxrwxrwx    1 0        0              28 Dec 31  1969 libjutil.so -> /mnt/cramfs//lib/libjutil.so
+lrwxrwxrwx    1 0        0              31 Dec 31  1969 libm-0.9.29.so -> /mnt/cramfs//lib/libm-0.9.29.so
+lrwxrwxrwx    1 0        0              30 Dec 31  1969 libm.so -> /mnt/cramfs/lib/libm-0.9.29.so
+lrwxrwxrwx    1 0        0              30 Dec 31  1969 libm.so.0 -> /mnt/cramfs/lib/libm-0.9.29.so
+lrwxrwxrwx    1 0        0              33 Dec 31  1969 libnsl-0.9.29.so -> /mnt/cramfs//lib/libnsl-0.9.29.so
+lrwxrwxrwx    1 0        0              32 Dec 31  1969 libnsl.so -> /mnt/cramfs/lib/libnsl-0.9.29.so
+lrwxrwxrwx    1 0        0              32 Dec 31  1969 libnsl.so.0 -> /mnt/cramfs/lib/libnsl-0.9.29.so
+lrwxrwxrwx    1 0        0              29 Dec 31  1969 libopenrg.so -> /mnt/cramfs//lib/libopenrg.so
+lrwxrwxrwx    1 0        0              33 Dec 31  1969 libopenrg_gpl.so -> /mnt/cramfs//lib/libopenrg_gpl.so
+lrwxrwxrwx    1 0        0              37 Dec 31  1969 libpthread-0.9.29.so -> /mnt/cramfs//lib/libpthread-0.9.29.so
+lrwxrwxrwx    1 0        0              36 Dec 31  1969 libpthread.so -> /mnt/cramfs/lib/libpthread-0.9.29.so
+lrwxrwxrwx    1 0        0              36 Dec 31  1969 libpthread.so.0 -> /mnt/cramfs/lib/libpthread-0.9.29.so
+lrwxrwxrwx    1 0        0              36 Dec 31  1969 libresolv-0.9.29.so -> /mnt/cramfs//lib/libresolv-0.9.29.so
+lrwxrwxrwx    1 0        0              35 Dec 31  1969 libresolv.so -> /mnt/cramfs/lib/libresolv-0.9.29.so
+lrwxrwxrwx    1 0        0              35 Dec 31  1969 libresolv.so.0 -> /mnt/cramfs/lib/libresolv-0.9.29.so
+lrwxrwxrwx    1 0        0              32 Dec 31  1969 librg_config.so -> /mnt/cramfs//lib/librg_config.so
+lrwxrwxrwx    1 0        0              32 Dec 31  1969 librt-0.9.29.so -> /mnt/cramfs//lib/librt-0.9.29.so
+lrwxrwxrwx    1 0        0              31 Dec 31  1969 librt.so -> /mnt/cramfs/lib/librt-0.9.29.so
+lrwxrwxrwx    1 0        0              31 Dec 31  1969 librt.so.0 -> /mnt/cramfs/lib/librt-0.9.29.so
+lrwxrwxrwx    1 0        0              26 Dec 31  1969 libssl.so -> /mnt/cramfs//lib/libssl.so
+lrwxrwxrwx    1 0        0              39 Dec 31  1969 libthread_db-0.9.29.so -> /mnt/cramfs//lib/libthread_db-0.9.29.so
+lrwxrwxrwx    1 0        0              38 Dec 31  1969 libthread_db.so -> /mnt/cramfs/lib/libthread_db-0.9.29.so
+lrwxrwxrwx    1 0        0              38 Dec 31  1969 libthread_db.so.1 -> /mnt/cramfs/lib/libthread_db-0.9.29.so
+lrwxrwxrwx    1 0        0              31 Dec 31  1969 libuClibc++.so -> /mnt/cramfs//lib/libuClibc++.so
+lrwxrwxrwx    1 0        0              36 Dec 31  1969 libuClibc-0.9.29.so -> /mnt/cramfs//lib/libuClibc-0.9.29.so
+lrwxrwxrwx    1 0        0              34 Dec 31  1969 libutil-0.9.29.so -> /mnt/cramfs//lib/libutil-0.9.29.so
+lrwxrwxrwx    1 0        0              33 Dec 31  1969 libutil.so -> /mnt/cramfs/lib/libutil-0.9.29.so
+lrwxrwxrwx    1 0        0              33 Dec 31  1969 libutil.so.0 -> /mnt/cramfs/lib/libutil-0.9.29.so
+drwxr-xr-x    2 0        0               0 Dec 31  1969 modules
+
+lib/modules:
+lrwxrwxrwx    1 0        0              40 Dec 31  1969 EN2510_clnkdrv.o -> /mnt/modfs//lib/modules/EN2510_clnkdrv.o
+lrwxrwxrwx    1 0        0              33 Dec 31  1969 ath_dfs.o -> /mnt/modfs//lib/modules/ath_dfs.o
+lrwxrwxrwx    1 0        0              33 Dec 31  1969 ath_hal.o -> /mnt/modfs//lib/modules/ath_hal.o
+lrwxrwxrwx    1 0        0              33 Dec 31  1969 ath_pci.o -> /mnt/modfs//lib/modules/ath_pci.o
+lrwxrwxrwx    1 0        0              36 Dec 31  1969 ath_pktlog.o -> /mnt/modfs//lib/modules/ath_pktlog.o
+lrwxrwxrwx    1 0        0              42 Dec 31  1969 ath_rate_atheros.o -> /mnt/modfs//lib/modules/ath_rate_atheros.o
+lrwxrwxrwx    1 0        0              34 Dec 31  1969 ath_tx99.o -> /mnt/modfs//lib/modules/ath_tx99.o
+lrwxrwxrwx    1 0        0              33 Dec 31  1969 athconf.o -> /mnt/modfs//lib/modules/athconf.o
+lrwxrwxrwx    1 0        0              31 Dec 31  1969 atrcm.o -> /mnt/modfs//lib/modules/atrcm.o
+lrwxrwxrwx    1 0        0              29 Dec 31  1969 btn.o -> /mnt/modfs//lib/modules/btn.o
+lrwxrwxrwx    1 0        0              40 Dec 31  1969 igmp_proxy_mod.o -> /mnt/modfs//lib/modules/igmp_proxy_mod.o
+lrwxrwxrwx    1 0        0              35 Dec 31  1969 kleds_mod.o -> /mnt/modfs//lib/modules/kleds_mod.o
+lrwxrwxrwx    1 0        0              37 Dec 31  1969 log_chardev.o -> /mnt/modfs//lib/modules/log_chardev.o
+lrwxrwxrwx    1 0        0              35 Dec 31  1969 mv88e60xx.o -> /mnt/modfs//lib/modules/mv88e60xx.o
+lrwxrwxrwx    1 0        0              36 Dec 31  1969 one_module.o -> /mnt/modfs//lib/modules/one_module.o
+lrwxrwxrwx    1 0        0              37 Dec 31  1969 pppoe_relay.o -> /mnt/modfs//lib/modules/pppoe_relay.o
+lrwxrwxrwx    1 0        0              37 Dec 31  1969 qos_ingress.o -> /mnt/modfs//lib/modules/qos_ingress.o
+lrwxrwxrwx    1 0        0              40 Dec 31  1969 rg_dhcp_pktfil.o -> /mnt/modfs//lib/modules/rg_dhcp_pktfil.o
+lrwxrwxrwx    1 0        0              33 Dec 31  1969 rg_ipv4.o -> /mnt/modfs//lib/modules/rg_ipv4.o
+lrwxrwxrwx    1 0        0              40 Dec 31  1969 rg_pppoe_relay.o -> /mnt/modfs//lib/modules/rg_pppoe_relay.o
+lrwxrwxrwx    1 0        0              32 Dec 31  1969 rg_stp.o -> /mnt/modfs//lib/modules/rg_stp.o
+lrwxrwxrwx    1 0        0              33 Dec 31  1969 tcp_mss.o -> /mnt/modfs//lib/modules/tcp_mss.o
+lrwxrwxrwx    1 0        0              37 Dec 31  1969 usb-storage.o -> /mnt/modfs//lib/modules/usb-storage.o
+lrwxrwxrwx    1 0        0              30 Dec 31  1969 wlan.o -> /mnt/modfs//lib/modules/wlan.o
+lrwxrwxrwx    1 0        0              34 Dec 31  1969 wlan_acl.o -> /mnt/modfs//lib/modules/wlan_acl.o
+lrwxrwxrwx    1 0        0              35 Dec 31  1969 wlan_ccmp.o -> /mnt/modfs//lib/modules/wlan_ccmp.o
+lrwxrwxrwx    1 0        0              38 Dec 31  1969 wlan_scan_ap.o -> /mnt/modfs//lib/modules/wlan_scan_ap.o
+lrwxrwxrwx    1 0        0              39 Dec 31  1969 wlan_scan_sta.o -> /mnt/modfs//lib/modules/wlan_scan_sta.o
+lrwxrwxrwx    1 0        0              35 Dec 31  1969 wlan_tkip.o -> /mnt/modfs//lib/modules/wlan_tkip.o
+lrwxrwxrwx    1 0        0              34 Dec 31  1969 wlan_wep.o -> /mnt/modfs//lib/modules/wlan_wep.o
+lrwxrwxrwx    1 0        0              36 Dec 31  1969 wlan_xauth.o -> /mnt/modfs//lib/modules/wlan_xauth.o
+
+sys/:
+drwxr-xr-x    4 0        0               0 Dec 31  1999 block
+drwxr-xr-x    7 0        0               0 Dec 31  1969 bus
+drwxr-xr-x   16 0        0               0 Dec 31  1999 class
+drwxr-xr-x    6 0        0               0 Dec 31  1969 devices
+drwxr-xr-x    2 0        0               0 Dec 31  1969 firmware
+drwxr-xr-x    2 0        0               0 Dec 31  1969 fs
+drwxr-xr-x    2 0        0               0 Apr 24 19:30 kernel
+drwxr-xr-x   33 0        0               0 Dec 31  1999 module
+
+sys/block:
+drwxr-xr-x    3 0        0               0 Apr 24 19:30 mtdblock0
+drwxr-xr-x    3 0        0               0 Apr 24 19:30 mtdblock1
+
+sys/block/mtdblock0:
+-r--r--r--    1 0        0            4096 Apr 24 19:30 dev
+drwxr-xr-x    3 0        0               0 Apr 24 19:30 queue
+-r--r--r--    1 0        0            4096 Apr 24 19:30 range
+-r--r--r--    1 0        0            4096 Apr 24 19:30 removable
+-r--r--r--    1 0        0            4096 Apr 24 19:30 size
+-r--r--r--    1 0        0            4096 Apr 24 19:30 stat
+--w-------    1 0        0            4096 Apr 24 19:30 uevent
+
+sys/block/mtdblock0/queue:
+drwxr-xr-x    2 0        0               0 Apr 24 19:30 iosched
+-r--r--r--    1 0        0            4096 Apr 24 19:30 max_hw_sectors_kb
+-rw-r--r--    1 0        0            4096 Apr 24 19:30 max_sectors_kb
+-rw-r--r--    1 0        0            4096 Apr 24 19:30 nr_requests
+-rw-r--r--    1 0        0            4096 Apr 24 19:30 read_ahead_kb
+-rw-r--r--    1 0        0            4096 Apr 24 19:30 scheduler
+
+sys/block/mtdblock0/queue/iosched:
+-rw-r--r--    1 0        0            4096 Apr 24 19:30 antic_expire
+-r--r--r--    1 0        0            4096 Apr 24 19:30 est_time
+-rw-r--r--    1 0        0            4096 Apr 24 19:30 read_batch_expire
+-rw-r--r--    1 0        0            4096 Apr 24 19:30 read_expire
+-rw-r--r--    1 0        0            4096 Apr 24 19:30 write_batch_expire
+-rw-r--r--    1 0        0            4096 Apr 24 19:30 write_expire
+
+sys/block/mtdblock1:
+-r--r--r--    1 0        0            4096 Apr 24 19:30 dev
+drwxr-xr-x    3 0        0               0 Apr 24 19:30 queue
+-r--r--r--    1 0        0            4096 Apr 24 19:30 range
+-r--r--r--    1 0        0            4096 Apr 24 19:30 removable
+-r--r--r--    1 0        0            4096 Apr 24 19:30 size
+-r--r--r--    1 0        0            4096 Apr 24 19:30 stat
+--w-------    1 0        0            4096 Apr 24 19:30 uevent
+
+sys/block/mtdblock1/queue:
+drwxr-xr-x    2 0        0               0 Apr 24 19:30 iosched
+-r--r--r--    1 0        0            4096 Apr 24 19:30 max_hw_sectors_kb
+-rw-r--r--    1 0        0            4096 Apr 24 19:30 max_sectors_kb
+-rw-r--r--    1 0        0            4096 Apr 24 19:30 nr_requests
+-rw-r--r--    1 0        0            4096 Apr 24 19:30 read_ahead_kb
+-rw-r--r--    1 0        0            4096 Apr 24 19:30 scheduler
+
+sys/block/mtdblock1/queue/iosched:
+-rw-r--r--    1 0        0            4096 Apr 24 19:30 antic_expire
+-r--r--r--    1 0        0            4096 Apr 24 19:30 est_time
+-rw-r--r--    1 0        0            4096 Apr 24 19:30 read_batch_expire
+-rw-r--r--    1 0        0            4096 Apr 24 19:30 read_expire
+-rw-r--r--    1 0        0            4096 Apr 24 19:30 write_batch_expire
+-rw-r--r--    1 0        0            4096 Apr 24 19:30 write_expire
+
+sys/bus:
+drwxr-xr-x    4 0        0               0 Dec 31  1969 i2c
+drwxr-xr-x    4 0        0               0 Dec 31  1969 pci
+drwxr-xr-x    4 0        0               0 Dec 31  1969 platform
+drwxr-xr-x    4 0        0               0 Dec 31  1969 scsi
+drwxr-xr-x    4 0        0               0 Dec 31  1969 usb
+
+sys/bus/i2c:
+drwxr-xr-x    2 0        0               0 Dec 31  1969 devices
+drwxr-xr-x    4 0        0               0 Dec 31  1999 drivers
+
+sys/bus/i2c/devices:
+
+sys/bus/i2c/drivers:
+drwxr-xr-x    2 0        0               0 Apr 24 19:30 dev_driver
+drwxr-xr-x    2 0        0               0 Apr 24 19:30 i2c_adapter
+
+sys/bus/i2c/drivers/dev_driver:
+--w-------    1 0        0            4096 Apr 24 19:30 bind
+--w-------    1 0        0            4096 Apr 24 19:30 unbind
+
+sys/bus/i2c/drivers/i2c_adapter:
+--w-------    1 0        0            4096 Apr 24 19:30 bind
+--w-------    1 0        0            4096 Apr 24 19:30 unbind
+
+sys/bus/pci:
+drwxr-xr-x    2 0        0               0 Apr 24 19:30 devices
+drwxr-xr-x    7 0        0               0 Dec 31  1999 drivers
+
+sys/bus/pci/devices:
+lrwxrwxrwx    1 0        0               0 Apr 24 19:30 0000:00:01.0 -> ../../../devices/pci0000:00/0000:00:01.0
+
+sys/bus/pci/drivers:
+drwxr-xr-x    2 0        0               0 Apr 24 19:30 ath_pci
+drwxr-xr-x    2 0        0               0 Apr 24 19:30 ehci_hcd
+drwxr-xr-x    2 0        0               0 Apr 24 19:30 ohci_hcd
+drwxr-xr-x    2 0        0               0 Apr 24 19:30 serial
+drwxr-xr-x    2 0        0               0 Apr 24 19:30 uhci_hcd
+
+sys/bus/pci/drivers/ath_pci:
+lrwxrwxrwx    1 0        0               0 Apr 24 19:30 0000:00:01.0 -> ../../../../devices/pci0000:00/0000:00:01.0
+--w-------    1 0        0            4096 Apr 24 19:30 bind
+lrwxrwxrwx    1 0        0               0 Apr 24 19:30 module -> ../../../../module/ath_pci
+--w-------    1 0        0            4096 Apr 24 19:30 new_id
+--w-------    1 0        0            4096 Apr 24 19:30 unbind
+
+sys/bus/pci/drivers/ehci_hcd:
+--w-------    1 0        0            4096 Apr 24 19:30 bind
+--w-------    1 0        0            4096 Apr 24 19:30 new_id
+--w-------    1 0        0            4096 Apr 24 19:30 unbind
+
+sys/bus/pci/drivers/ohci_hcd:
+--w-------    1 0        0            4096 Apr 24 19:30 bind
+--w-------    1 0        0            4096 Apr 24 19:30 new_id
+--w-------    1 0        0            4096 Apr 24 19:30 unbind
+
+sys/bus/pci/drivers/serial:
+--w-------    1 0        0            4096 Apr 24 19:30 bind
+--w-------    1 0        0            4096 Apr 24 19:30 new_id
+--w-------    1 0        0            4096 Apr 24 19:30 unbind
+
+sys/bus/pci/drivers/uhci_hcd:
+--w-------    1 0        0            4096 Apr 24 19:30 bind
+--w-------    1 0        0            4096 Apr 24 19:30 new_id
+--w-------    1 0        0            4096 Apr 24 19:30 unbind
+
+sys/bus/platform:
+drwxr-xr-x    2 0        0               0 Apr 24 19:30 devices
+drwxr-xr-x    6 0        0               0 Dec 31  1999 drivers
+
+sys/bus/platform/devices:
+lrwxrwxrwx    1 0        0               0 Apr 24 19:30 ehci_marvell.70059 -> ../../../devices/platform/ehci_marvell.70059
+lrwxrwxrwx    1 0        0               0 Apr 24 19:30 feroceon_wdt -> ../../../devices/platform/feroceon_wdt
+lrwxrwxrwx    1 0        0               0 Apr 24 19:30 mv64xxx_i2c.0 -> ../../../devices/platform/mv64xxx_i2c.0
+lrwxrwxrwx    1 0        0               0 Apr 24 19:30 mv88fx_eth.0 -> ../../../devices/platform/mv88fx_eth.0
+lrwxrwxrwx    1 0        0               0 Apr 24 19:30 neta -> ../../../devices/platform/neta
+lrwxrwxrwx    1 0        0               0 Apr 24 19:30 serial8250 -> ../../../devices/platform/serial8250
+lrwxrwxrwx    1 0        0               0 Apr 24 19:30 serial8250.0 -> ../../../devices/platform/serial8250.0
+
+sys/bus/platform/drivers:
+drwxr-xr-x    2 0        0               0 Apr 24 19:30 ehci_marvell
+drwxr-xr-x    2 0        0               0 Apr 24 19:30 feroceon_wdt
+drwxr-xr-x    2 0        0               0 Apr 24 19:30 mv64xxx_i2c
+drwxr-xr-x    2 0        0               0 Apr 24 19:30 serial8250
+
+sys/bus/platform/drivers/ehci_marvell:
+--w-------    1 0        0            4096 Apr 24 19:30 bind
+lrwxrwxrwx    1 0        0               0 Apr 24 19:30 ehci_marvell.70059 -> ../../../../devices/platform/ehci_marvell.70059
+--w-------    1 0        0            4096 Apr 24 19:30 unbind
+
+sys/bus/platform/drivers/feroceon_wdt:
+--w-------    1 0        0            4096 Apr 24 19:30 bind
+lrwxrwxrwx    1 0        0               0 Apr 24 19:30 feroceon_wdt -> ../../../../devices/platform/feroceon_wdt
+--w-------    1 0        0            4096 Apr 24 19:30 unbind
+
+sys/bus/platform/drivers/mv64xxx_i2c:
+--w-------    1 0        0            4096 Apr 24 19:30 bind
+lrwxrwxrwx    1 0        0               0 Apr 24 19:30 mv64xxx_i2c.0 -> ../../../../devices/platform/mv64xxx_i2c.0
+--w-------    1 0        0            4096 Apr 24 19:30 unbind
+
+sys/bus/platform/drivers/serial8250:
+--w-------    1 0        0            4096 Apr 24 19:30 bind
+lrwxrwxrwx    1 0        0               0 Apr 24 19:30 serial8250 -> ../../../../devices/platform/serial8250
+lrwxrwxrwx    1 0        0               0 Apr 24 19:30 serial8250.0 -> ../../../../devices/platform/serial8250.0
+--w-------    1 0        0            4096 Apr 24 19:30 unbind
+
+sys/bus/scsi:
+drwxr-xr-x    2 0        0               0 Dec 31  1969 devices
+drwxr-xr-x    3 0        0               0 Dec 31  1999 drivers
+
+sys/bus/scsi/devices:
+
+sys/bus/scsi/drivers:
+drwxr-xr-x    2 0        0               0 Apr 24 19:30 sd
+
+sys/bus/scsi/drivers/sd:
+--w-------    1 0        0            4096 Apr 24 19:30 bind
+--w-------    1 0        0            4096 Apr 24 19:30 unbind
+
+sys/bus/usb:
+drwxr-xr-x    2 0        0               0 Apr 24 19:30 devices
+drwxr-xr-x    6 0        0               0 Dec 31  1999 drivers
+
+sys/bus/usb/devices:
+lrwxrwxrwx    1 0        0               0 Apr 24 19:30 1-0:1.0 -> ../../../devices/platform/ehci_marvell.70059/usb1/1-0:1.0
+lrwxrwxrwx    1 0        0               0 Apr 24 19:30 1-1 -> ../../../devices/platform/ehci_marvell.70059/usb1/1-1
+lrwxrwxrwx    1 0        0               0 Apr 24 19:30 1-1:1.0 -> ../../../devices/platform/ehci_marvell.70059/usb1/1-1/1-1:1.0
+lrwxrwxrwx    1 0        0               0 Apr 24 19:30 usb1 -> ../../../devices/platform/ehci_marvell.70059/usb1
+
+sys/bus/usb/drivers:
+drwxr-xr-x    2 0        0               0 Apr 24 19:30 hub
+drwxr-xr-x    2 0        0               0 Apr 24 19:30 usb
+drwxr-xr-x    2 0        0               0 Apr 24 19:30 usb-storage
+drwxr-xr-x    2 0        0               0 Apr 24 19:30 usbfs
+
+sys/bus/usb/drivers/hub:
+lrwxrwxrwx    1 0        0               0 Apr 24 19:30 1-0:1.0 -> ../../../../devices/platform/ehci_marvell.70059/usb1/1-0:1.0
+lrwxrwxrwx    1 0        0               0 Apr 24 19:30 1-1:1.0 -> ../../../../devices/platform/ehci_marvell.70059/usb1/1-1/1-1:1.0
+--w-------    1 0        0            4096 Apr 24 19:30 bind
+--w-------    1 0        0            4096 Apr 24 19:30 new_id
+--w-------    1 0        0            4096 Apr 24 19:30 unbind
+
+sys/bus/usb/drivers/usb:
+lrwxrwxrwx    1 0        0               0 Apr 24 19:30 1-1 -> ../../../../devices/platform/ehci_marvell.70059/usb1/1-1
+--w-------    1 0        0            4096 Apr 24 19:30 bind
+--w-------    1 0        0            4096 Apr 24 19:30 unbind
+lrwxrwxrwx    1 0        0               0 Apr 24 19:30 usb1 -> ../../../../devices/platform/ehci_marvell.70059/usb1
+
+sys/bus/usb/drivers/usb-storage:
+--w-------    1 0        0            4096 Apr 24 19:30 bind
+lrwxrwxrwx    1 0        0               0 Apr 24 19:30 module -> ../../../../module/usb_storage
+--w-------    1 0        0            4096 Apr 24 19:30 new_id
+--w-------    1 0        0            4096 Apr 24 19:30 unbind
+
+sys/bus/usb/drivers/usbfs:
+--w-------    1 0        0            4096 Apr 24 19:30 bind
+--w-------    1 0        0            4096 Apr 24 19:30 new_id
+--w-------    1 0        0            4096 Apr 24 19:30 unbind
+
+sys/class:
+drwxr-xr-x    3 0        0               0 Dec 31  1999 i2c-adapter
+drwxr-xr-x    3 0        0               0 Dec 31  1999 i2c-dev
+drwxr-xr-x    2 0        0               0 Dec 31  1969 input
+drwxr-xr-x   11 0        0               0 Dec 31  1969 mem
+drwxr-xr-x    4 0        0               0 Dec 31  1999 misc
+drwxr-xr-x    6 0        0               0 Dec 31  1999 mtd
+drwxr-xr-x   12 0        0               0 Dec 14  2007 net
+drwxr-xr-x    4 0        0               0 Dec 31  1969 pci_bus
+drwxr-xr-x    2 0        0               0 Dec 31  1969 scsi_device
+drwxr-xr-x    2 0        0               0 Dec 31  1969 scsi_host
+drwxr-xr-x   41 0        0               0 Dec 31  1999 tty
+drwxr-xr-x    2 0        0               0 Dec 31  1969 usb
+drwxr-xr-x    4 0        0               0 Dec 31  1999 usb_device
+drwxr-xr-x    3 0        0               0 Dec 31  1999 usb_host
+
+sys/class/i2c-adapter:
+drwxr-xr-x    2 0        0               0 Apr 24 19:30 i2c-0
+
+sys/class/i2c-adapter/i2c-0:
+lrwxrwxrwx    1 0        0               0 Apr 24 19:30 device -> ../../../devices/platform/i2c-0
+--w-------    1 0        0            4096 Apr 24 19:30 uevent
+
+sys/class/i2c-dev:
+drwxr-xr-x    2 0        0               0 Apr 24 19:30 i2c-0
+
+sys/class/i2c-dev/i2c-0:
+-r--r--r--    1 0        0            4096 Apr 24 19:30 dev
+lrwxrwxrwx    1 0        0               0 Apr 24 19:30 device -> ../../../devices/platform/i2c-0
+-r--r--r--    1 0        0            4096 Apr 24 19:30 name
+--w-------    1 0        0            4096 Apr 24 19:30 uevent
+
+sys/class/input:
+
+sys/class/mem:
+drwxr-xr-x    2 0        0               0 Apr 24 19:30 full
+drwxr-xr-x    2 0        0               0 Apr 24 19:30 kmem
+drwxr-xr-x    2 0        0               0 Apr 24 19:30 kmsg
+drwxr-xr-x    2 0        0               0 Apr 24 19:30 mem
+drwxr-xr-x    2 0        0               0 Apr 24 19:30 null
+drwxr-xr-x    2 0        0               0 Apr 24 19:30 port
+drwxr-xr-x    2 0        0               0 Apr 24 19:30 random
+drwxr-xr-x    2 0        0               0 Apr 24 19:30 urandom
+drwxr-xr-x    2 0        0               0 Apr 24 19:30 zero
+
+sys/class/mem/full:
+-r--r--r--    1 0        0            4096 Apr 24 19:30 dev
+--w-------    1 0        0            4096 Apr 24 19:30 uevent
+
+sys/class/mem/kmem:
+-r--r--r--    1 0        0            4096 Apr 24 19:30 dev
+--w-------    1 0        0            4096 Apr 24 19:30 uevent
+
+sys/class/mem/kmsg:
+-r--r--r--    1 0        0            4096 Apr 24 19:30 dev
+--w-------    1 0        0            4096 Apr 24 19:30 uevent
+
+sys/class/mem/mem:
+-r--r--r--    1 0        0            4096 Apr 24 19:30 dev
+--w-------    1 0        0            4096 Apr 24 19:30 uevent
+
+sys/class/mem/null:
+-r--r--r--    1 0        0            4096 Apr 24 19:30 dev
+--w-------    1 0        0            4096 Apr 24 19:30 uevent
+
+sys/class/mem/port:
+-r--r--r--    1 0        0            4096 Apr 24 19:30 dev
+--w-------    1 0        0            4096 Apr 24 19:30 uevent
+
+sys/class/mem/random:
+-r--r--r--    1 0        0            4096 Apr 24 19:30 dev
+--w-------    1 0        0            4096 Apr 24 19:30 uevent
+
+sys/class/mem/urandom:
+-r--r--r--    1 0        0            4096 Apr 24 19:30 dev
+--w-------    1 0        0            4096 Apr 24 19:30 uevent
+
+sys/class/mem/zero:
+-r--r--r--    1 0        0            4096 Apr 24 19:30 dev
+--w-------    1 0        0            4096 Apr 24 19:30 uevent
+
+sys/class/misc:
+drwxr-xr-x    2 0        0               0 Apr 24 19:30 rtc
+drwxr-xr-x    2 0        0               0 Apr 24 19:30 watchdog
+
+sys/class/misc/rtc:
+-r--r--r--    1 0        0            4096 Apr 24 19:30 dev
+--w-------    1 0        0            4096 Apr 24 19:30 uevent
+
+sys/class/misc/watchdog:
+-r--r--r--    1 0        0            4096 Apr 24 19:30 dev
+lrwxrwxrwx    1 0        0               0 Apr 24 19:30 device -> ../../../devices/platform/feroceon_wdt
+--w-------    1 0        0            4096 Apr 24 19:30 uevent
+
+sys/class/mtd:
+drwxr-xr-x    2 0        0               0 Apr 24 19:30 mtd0
+drwxr-xr-x    2 0        0               0 Apr 24 19:30 mtd0ro
+drwxr-xr-x    2 0        0               0 Apr 24 19:30 mtd1
+drwxr-xr-x    2 0        0               0 Apr 24 19:30 mtd1ro
+
+sys/class/mtd/mtd0:
+-r--r--r--    1 0        0            4096 Apr 24 19:30 dev
+--w-------    1 0        0            4096 Apr 24 19:30 uevent
+
+sys/class/mtd/mtd0ro:
+-r--r--r--    1 0        0            4096 Apr 24 19:30 dev
+--w-------    1 0        0            4096 Apr 24 19:30 uevent
+
+sys/class/mtd/mtd1:
+-r--r--r--    1 0        0            4096 Apr 24 19:30 dev
+--w-------    1 0        0            4096 Apr 24 19:30 uevent
+
+sys/class/mtd/mtd1ro:
+-r--r--r--    1 0        0            4096 Apr 24 19:30 dev
+--w-------    1 0        0            4096 Apr 24 19:30 uevent
+
+sys/class/net:
+drwxr-xr-x    4 0        0               0 Apr 24 19:30 ath0
+drwxr-xr-x    4 0        0               0 Apr 24 19:30 ath1
+drwxr-xr-x    3 0        0               0 Apr 24 19:30 br0
+drwxr-xr-x    3 0        0               0 Apr 24 19:30 br_s0
+drwxr-xr-x    3 0        0               0 Apr 24 19:30 eth0
+drwxr-xr-x    3 0        0               0 Apr 24 19:30 eth1
+drwxr-xr-x    3 0        0               0 Apr 24 19:30 ip6tnl0
+drwxr-xr-x    3 0        0               0 Apr 24 19:30 lo
+drwxr-xr-x    3 0        0               0 Apr 24 19:30 sit0
+drwxr-xr-x    3 0        0               0 Apr 24 19:30 wifi0
+
+sys/class/net/ath0:
+-r--r--r--    1 0        0            4096 Apr 24 19:30 addr_len
+-r--r--r--    1 0        0            4096 Apr 24 19:30 address
+-r--r--r--    1 0        0            4096 Apr 24 19:30 broadcast
+-r--r--r--    1 0        0            4096 Apr 24 19:30 carrier
+-r--r--r--    1 0        0            4096 Apr 24 19:30 features
+-rw-r--r--    1 0        0            4096 Apr 24 19:30 flags
+-r--r--r--    1 0        0            4096 Apr 24 19:30 ifindex
+-r--r--r--    1 0        0            4096 Apr 24 19:30 iflink
+-rw-r--r--    1 0        0            4096 Apr 24 19:30 mtu
+drwxr-xr-x    2 0        0               0 Apr 24 19:30 statistics
+-rw-r--r--    1 0        0            4096 Apr 24 19:30 tx_queue_len
+-r--r--r--    1 0        0            4096 Apr 24 19:30 type
+--w-------    1 0        0            4096 Apr 24 19:30 uevent
+-rw-r--r--    1 0        0            4096 Apr 24 19:30 weight
+drwxr-xr-x    2 0        0               0 Apr 24 19:30 wireless
+
+sys/class/net/ath0/statistics:
+-r--r--r--    1 0        0            4096 Apr 24 19:30 collisions
+-r--r--r--    1 0        0            4096 Apr 24 19:30 multicast
+-r--r--r--    1 0        0            4096 Apr 24 19:30 rx_bytes
+-r--r--r--    1 0        0            4096 Apr 24 19:30 rx_compressed
+-r--r--r--    1 0        0            4096 Apr 24 19:30 rx_crc_errors
+-r--r--r--    1 0        0            4096 Apr 24 19:30 rx_dropped
+-r--r--r--    1 0        0            4096 Apr 24 19:30 rx_errors
+-r--r--r--    1 0        0            4096 Apr 24 19:30 rx_fifo_errors
+-r--r--r--    1 0        0            4096 Apr 24 19:30 rx_frame_errors
+-r--r--r--    1 0        0            4096 Apr 24 19:30 rx_length_errors
+-r--r--r--    1 0        0            4096 Apr 24 19:30 rx_missed_errors
+-r--r--r--    1 0        0            4096 Apr 24 19:30 rx_over_errors
+-r--r--r--    1 0        0            4096 Apr 24 19:30 rx_packets
+-r--r--r--    1 0        0            4096 Apr 24 19:30 tx_aborted_errors
+-r--r--r--    1 0        0            4096 Apr 24 19:30 tx_bytes
+-r--r--r--    1 0        0            4096 Apr 24 19:30 tx_carrier_errors
+-r--r--r--    1 0        0            4096 Apr 24 19:30 tx_compressed
+-r--r--r--    1 0        0            4096 Apr 24 19:30 tx_dropped
+-r--r--r--    1 0        0            4096 Apr 24 19:30 tx_errors
+-r--r--r--    1 0        0            4096 Apr 24 19:30 tx_fifo_errors
+-r--r--r--    1 0        0            4096 Apr 24 19:30 tx_heartbeat_errors
+-r--r--r--    1 0        0            4096 Apr 24 19:30 tx_packets
+-r--r--r--    1 0        0            4096 Apr 24 19:30 tx_window_errors
+
+sys/class/net/ath0/wireless:
+-r--r--r--    1 0        0            4096 Apr 24 19:30 beacon
+-r--r--r--    1 0        0            4096 Apr 24 19:30 crypt
+-r--r--r--    1 0        0            4096 Apr 24 19:30 fragment
+-r--r--r--    1 0        0            4096 Apr 24 19:30 level
+-r--r--r--    1 0        0            4096 Apr 24 19:30 link
+-r--r--r--    1 0        0            4096 Apr 24 19:30 misc
+-r--r--r--    1 0        0            4096 Apr 24 19:30 noise
+-r--r--r--    1 0        0            4096 Apr 24 19:30 nwid
+-r--r--r--    1 0        0            4096 Apr 24 19:30 retries
+-r--r--r--    1 0        0            4096 Apr 24 19:30 status
+
+sys/class/net/ath1:
+-r--r--r--    1 0        0            4096 Apr 24 19:30 addr_len
+-r--r--r--    1 0        0            4096 Apr 24 19:30 address
+-r--r--r--    1 0        0            4096 Apr 24 19:30 broadcast
+-r--r--r--    1 0        0            4096 Apr 24 19:30 carrier
+-r--r--r--    1 0        0            4096 Apr 24 19:30 features
+-rw-r--r--    1 0        0            4096 Apr 24 19:30 flags
+-r--r--r--    1 0        0            4096 Apr 24 19:30 ifindex
+-r--r--r--    1 0        0            4096 Apr 24 19:30 iflink
+-rw-r--r--    1 0        0            4096 Apr 24 19:30 mtu
+drwxr-xr-x    2 0        0               0 Apr 24 19:30 statistics
+-rw-r--r--    1 0        0            4096 Apr 24 19:30 tx_queue_len
+-r--r--r--    1 0        0            4096 Apr 24 19:30 type
+--w-------    1 0        0            4096 Apr 24 19:30 uevent
+-rw-r--r--    1 0        0            4096 Apr 24 19:30 weight
+drwxr-xr-x    2 0        0               0 Apr 24 19:30 wireless
+
+sys/class/net/ath1/statistics:
+-r--r--r--    1 0        0            4096 Apr 24 19:30 collisions
+-r--r--r--    1 0        0            4096 Apr 24 19:30 multicast
+-r--r--r--    1 0        0            4096 Apr 24 19:30 rx_bytes
+-r--r--r--    1 0        0            4096 Apr 24 19:30 rx_compressed
+-r--r--r--    1 0        0            4096 Apr 24 19:30 rx_crc_errors
+-r--r--r--    1 0        0            4096 Apr 24 19:30 rx_dropped
+-r--r--r--    1 0        0            4096 Apr 24 19:30 rx_errors
+-r--r--r--    1 0        0            4096 Apr 24 19:30 rx_fifo_errors
+-r--r--r--    1 0        0            4096 Apr 24 19:30 rx_frame_errors
+-r--r--r--    1 0        0            4096 Apr 24 19:30 rx_length_errors
+-r--r--r--    1 0        0            4096 Apr 24 19:30 rx_missed_errors
+-r--r--r--    1 0        0            4096 Apr 24 19:30 rx_over_errors
+-r--r--r--    1 0        0            4096 Apr 24 19:30 rx_packets
+-r--r--r--    1 0        0            4096 Apr 24 19:30 tx_aborted_errors
+-r--r--r--    1 0        0            4096 Apr 24 19:30 tx_bytes
+-r--r--r--    1 0        0            4096 Apr 24 19:30 tx_carrier_errors
+-r--r--r--    1 0        0            4096 Apr 24 19:30 tx_compressed
+-r--r--r--    1 0        0            4096 Apr 24 19:30 tx_dropped
+-r--r--r--    1 0        0            4096 Apr 24 19:30 tx_errors
+-r--r--r--    1 0        0            4096 Apr 24 19:30 tx_fifo_errors
+-r--r--r--    1 0        0            4096 Apr 24 19:30 tx_heartbeat_errors
+-r--r--r--    1 0        0            4096 Apr 24 19:30 tx_packets
+-r--r--r--    1 0        0            4096 Apr 24 19:30 tx_window_errors
+
+sys/class/net/ath1/wireless:
+-r--r--r--    1 0        0            4096 Apr 24 19:30 beacon
+-r--r--r--    1 0        0            4096 Apr 24 19:30 crypt
+-r--r--r--    1 0        0            4096 Apr 24 19:30 fragment
+-r--r--r--    1 0        0            4096 Apr 24 19:30 level
+-r--r--r--    1 0        0            4096 Apr 24 19:30 link
+-r--r--r--    1 0        0            4096 Apr 24 19:30 misc
+-r--r--r--    1 0        0            4096 Apr 24 19:30 noise
+-r--r--r--    1 0        0            4096 Apr 24 19:30 nwid
+-r--r--r--    1 0        0            4096 Apr 24 19:30 retries
+-r--r--r--    1 0        0            4096 Apr 24 19:30 status
+
+sys/class/net/br0:
+-r--r--r--    1 0        0            4096 Apr 24 19:30 addr_len
+-r--r--r--    1 0        0            4096 Apr 24 19:30 address
+-r--r--r--    1 0        0            4096 Apr 24 19:30 broadcast
+-r--r--r--    1 0        0            4096 Apr 24 19:30 carrier
+-r--r--r--    1 0        0            4096 Apr 24 19:30 features
+-rw-r--r--    1 0        0            4096 Apr 24 19:30 flags
+-r--r--r--    1 0        0            4096 Apr 24 19:30 ifindex
+-r--r--r--    1 0        0            4096 Apr 24 19:30 iflink
+-rw-r--r--    1 0        0            4096 Apr 24 19:30 mtu
+drwxr-xr-x    2 0        0               0 Apr 24 19:30 statistics
+-rw-r--r--    1 0        0            4096 Apr 24 19:30 tx_queue_len
+-r--r--r--    1 0        0            4096 Apr 24 19:30 type
+--w-------    1 0        0            4096 Apr 24 19:30 uevent
+-rw-r--r--    1 0        0            4096 Apr 24 19:30 weight
+
+sys/class/net/br0/statistics:
+-r--r--r--    1 0        0            4096 Apr 24 19:30 collisions
+-r--r--r--    1 0        0            4096 Apr 24 19:30 multicast
+-r--r--r--    1 0        0            4096 Apr 24 19:30 rx_bytes
+-r--r--r--    1 0        0            4096 Apr 24 19:30 rx_compressed
+-r--r--r--    1 0        0            4096 Apr 24 19:30 rx_crc_errors
+-r--r--r--    1 0        0            4096 Apr 24 19:30 rx_dropped
+-r--r--r--    1 0        0            4096 Apr 24 19:30 rx_errors
+-r--r--r--    1 0        0            4096 Apr 24 19:30 rx_fifo_errors
+-r--r--r--    1 0        0            4096 Apr 24 19:30 rx_frame_errors
+-r--r--r--    1 0        0            4096 Apr 24 19:30 rx_length_errors
+-r--r--r--    1 0        0            4096 Apr 24 19:30 rx_missed_errors
+-r--r--r--    1 0        0            4096 Apr 24 19:30 rx_over_errors
+-r--r--r--    1 0        0            4096 Apr 24 19:30 rx_packets
+-r--r--r--    1 0        0            4096 Apr 24 19:30 tx_aborted_errors
+-r--r--r--    1 0        0            4096 Apr 24 19:30 tx_bytes
+-r--r--r--    1 0        0            4096 Apr 24 19:30 tx_carrier_errors
+-r--r--r--    1 0        0            4096 Apr 24 19:30 tx_compressed
+-r--r--r--    1 0        0            4096 Apr 24 19:30 tx_dropped
+-r--r--r--    1 0        0            4096 Apr 24 19:30 tx_errors
+-r--r--r--    1 0        0            4096 Apr 24 19:30 tx_fifo_errors
+-r--r--r--    1 0        0            4096 Apr 24 19:30 tx_heartbeat_errors
+-r--r--r--    1 0        0            4096 Apr 24 19:30 tx_packets
+-r--r--r--    1 0        0            4096 Apr 24 19:30 tx_window_errors
+
+sys/class/net/br_s0:
+-r--r--r--    1 0        0            4096 Apr 24 19:30 addr_len
+-r--r--r--    1 0        0            4096 Apr 24 19:30 address
+-r--r--r--    1 0        0            4096 Apr 24 19:30 broadcast
+-r--r--r--    1 0        0            4096 Apr 24 19:30 carrier
+-r--r--r--    1 0        0            4096 Apr 24 19:30 features
+-rw-r--r--    1 0        0            4096 Apr 24 19:30 flags
+-r--r--r--    1 0        0            4096 Apr 24 19:30 ifindex
+-r--r--r--    1 0        0            4096 Apr 24 19:30 iflink
+-rw-r--r--    1 0        0            4096 Apr 24 19:30 mtu
+drwxr-xr-x    2 0        0               0 Apr 24 19:30 statistics
+-rw-r--r--    1 0        0            4096 Apr 24 19:30 tx_queue_len
+-r--r--r--    1 0        0            4096 Apr 24 19:30 type
+--w-------    1 0        0            4096 Apr 24 19:30 uevent
+-rw-r--r--    1 0        0            4096 Apr 24 19:30 weight
+
+sys/class/net/br_s0/statistics:
+-r--r--r--    1 0        0            4096 Apr 24 19:30 collisions
+-r--r--r--    1 0        0            4096 Apr 24 19:30 multicast
+-r--r--r--    1 0        0            4096 Apr 24 19:30 rx_bytes
+-r--r--r--    1 0        0            4096 Apr 24 19:30 rx_compressed
+-r--r--r--    1 0        0            4096 Apr 24 19:30 rx_crc_errors
+-r--r--r--    1 0        0            4096 Apr 24 19:30 rx_dropped
+-r--r--r--    1 0        0            4096 Apr 24 19:30 rx_errors
+-r--r--r--    1 0        0            4096 Apr 24 19:30 rx_fifo_errors
+-r--r--r--    1 0        0            4096 Apr 24 19:30 rx_frame_errors
+-r--r--r--    1 0        0            4096 Apr 24 19:30 rx_length_errors
+-r--r--r--    1 0        0            4096 Apr 24 19:30 rx_missed_errors
+-r--r--r--    1 0        0            4096 Apr 24 19:30 rx_over_errors
+-r--r--r--    1 0        0            4096 Apr 24 19:30 rx_packets
+-r--r--r--    1 0        0            4096 Apr 24 19:30 tx_aborted_errors
+-r--r--r--    1 0        0            4096 Apr 24 19:30 tx_bytes
+-r--r--r--    1 0        0            4096 Apr 24 19:30 tx_carrier_errors
+-r--r--r--    1 0        0            4096 Apr 24 19:30 tx_compressed
+-r--r--r--    1 0        0            4096 Apr 24 19:30 tx_dropped
+-r--r--r--    1 0        0            4096 Apr 24 19:30 tx_errors
+-r--r--r--    1 0        0            4096 Apr 24 19:30 tx_fifo_errors
+-r--r--r--    1 0        0            4096 Apr 24 19:30 tx_heartbeat_errors
+-r--r--r--    1 0        0            4096 Apr 24 19:30 tx_packets
+-r--r--r--    1 0        0            4096 Apr 24 19:30 tx_window_errors
+
+sys/class/net/eth0:
+-r--r--r--    1 0        0            4096 Apr 24 19:30 addr_len
+-r--r--r--    1 0        0            4096 Apr 24 19:30 address
+-r--r--r--    1 0        0            4096 Apr 24 19:30 broadcast
+-r--r--r--    1 0        0            4096 Apr 24 19:30 carrier
+-r--r--r--    1 0        0            4096 Apr 24 19:30 features
+-rw-r--r--    1 0        0            4096 Apr 24 19:30 flags
+-r--r--r--    1 0        0            4096 Apr 24 19:30 ifindex
+-r--r--r--    1 0        0            4096 Apr 24 19:30 iflink
+-rw-r--r--    1 0        0            4096 Apr 24 19:30 mtu
+drwxr-xr-x    2 0        0               0 Apr 24 19:30 statistics
+-rw-r--r--    1 0        0            4096 Apr 24 19:30 tx_queue_len
+-r--r--r--    1 0        0            4096 Apr 24 19:30 type
+--w-------    1 0        0            4096 Apr 24 19:30 uevent
+-rw-r--r--    1 0        0            4096 Apr 24 19:30 weight
+
+sys/class/net/eth0/statistics:
+-r--r--r--    1 0        0            4096 Apr 24 19:30 collisions
+-r--r--r--    1 0        0            4096 Apr 24 19:30 multicast
+-r--r--r--    1 0        0            4096 Apr 24 19:30 rx_bytes
+-r--r--r--    1 0        0            4096 Apr 24 19:30 rx_compressed
+-r--r--r--    1 0        0            4096 Apr 24 19:30 rx_crc_errors
+-r--r--r--    1 0        0            4096 Apr 24 19:30 rx_dropped
+-r--r--r--    1 0        0            4096 Apr 24 19:30 rx_errors
+-r--r--r--    1 0        0            4096 Apr 24 19:30 rx_fifo_errors
+-r--r--r--    1 0        0            4096 Apr 24 19:30 rx_frame_errors
+-r--r--r--    1 0        0            4096 Apr 24 19:30 rx_length_errors
+-r--r--r--    1 0        0            4096 Apr 24 19:30 rx_missed_errors
+-r--r--r--    1 0        0            4096 Apr 24 19:30 rx_over_errors
+-r--r--r--    1 0        0            4096 Apr 24 19:30 rx_packets
+-r--r--r--    1 0        0            4096 Apr 24 19:30 tx_aborted_errors
+-r--r--r--    1 0        0            4096 Apr 24 19:30 tx_bytes
+-r--r--r--    1 0        0            4096 Apr 24 19:30 tx_carrier_errors
+-r--r--r--    1 0        0            4096 Apr 24 19:30 tx_compressed
+-r--r--r--    1 0        0            4096 Apr 24 19:30 tx_dropped
+-r--r--r--    1 0        0            4096 Apr 24 19:30 tx_errors
+-r--r--r--    1 0        0            4096 Apr 24 19:30 tx_fifo_errors
+-r--r--r--    1 0        0            4096 Apr 24 19:30 tx_heartbeat_errors
+-r--r--r--    1 0        0            4096 Apr 24 19:30 tx_packets
+-r--r--r--    1 0        0            4096 Apr 24 19:30 tx_window_errors
+
+sys/class/net/eth1:
+-r--r--r--    1 0        0            4096 Apr 24 19:30 addr_len
+-r--r--r--    1 0        0            4096 Apr 24 19:30 address
+-r--r--r--    1 0        0            4096 Apr 24 19:30 broadcast
+-r--r--r--    1 0        0            4096 Apr 24 19:30 carrier
+-r--r--r--    1 0        0            4096 Apr 24 19:30 features
+-rw-r--r--    1 0        0            4096 Apr 24 19:30 flags
+-r--r--r--    1 0        0            4096 Apr 24 19:30 ifindex
+-r--r--r--    1 0        0            4096 Apr 24 19:30 iflink
+-rw-r--r--    1 0        0            4096 Apr 24 19:30 mtu
+drwxr-xr-x    2 0        0               0 Apr 24 19:30 statistics
+-rw-r--r--    1 0        0            4096 Apr 24 19:30 tx_queue_len
+-r--r--r--    1 0        0            4096 Apr 24 19:30 type
+--w-------    1 0        0            4096 Apr 24 19:30 uevent
+-rw-r--r--    1 0        0            4096 Apr 24 19:30 weight
+
+sys/class/net/eth1/statistics:
+-r--r--r--    1 0        0            4096 Apr 24 19:30 collisions
+-r--r--r--    1 0        0            4096 Apr 24 19:30 multicast
+-r--r--r--    1 0        0            4096 Apr 24 19:30 rx_bytes
+-r--r--r--    1 0        0            4096 Apr 24 19:30 rx_compressed
+-r--r--r--    1 0        0            4096 Apr 24 19:30 rx_crc_errors
+-r--r--r--    1 0        0            4096 Apr 24 19:30 rx_dropped
+-r--r--r--    1 0        0            4096 Apr 24 19:30 rx_errors
+-r--r--r--    1 0        0            4096 Apr 24 19:30 rx_fifo_errors
+-r--r--r--    1 0        0            4096 Apr 24 19:30 rx_frame_errors
+-r--r--r--    1 0        0            4096 Apr 24 19:30 rx_length_errors
+-r--r--r--    1 0        0            4096 Apr 24 19:30 rx_missed_errors
+-r--r--r--    1 0        0            4096 Apr 24 19:30 rx_over_errors
+-r--r--r--    1 0        0            4096 Apr 24 19:30 rx_packets
+-r--r--r--    1 0        0            4096 Apr 24 19:30 tx_aborted_errors
+-r--r--r--    1 0        0            4096 Apr 24 19:30 tx_bytes
+-r--r--r--    1 0        0            4096 Apr 24 19:30 tx_carrier_errors
+-r--r--r--    1 0        0            4096 Apr 24 19:30 tx_compressed
+-r--r--r--    1 0        0            4096 Apr 24 19:30 tx_dropped
+-r--r--r--    1 0        0            4096 Apr 24 19:30 tx_errors
+-r--r--r--    1 0        0            4096 Apr 24 19:30 tx_fifo_errors
+-r--r--r--    1 0        0            4096 Apr 24 19:30 tx_heartbeat_errors
+-r--r--r--    1 0        0            4096 Apr 24 19:30 tx_packets
+-r--r--r--    1 0        0            4096 Apr 24 19:30 tx_window_errors
+
+sys/class/net/ip6tnl0:
+-r--r--r--    1 0        0            4096 Apr 24 19:30 addr_len
+-r--r--r--    1 0        0            4096 Apr 24 19:30 address
+-r--r--r--    1 0        0            4096 Apr 24 19:30 broadcast
+-r--r--r--    1 0        0            4096 Apr 24 19:30 carrier
+-r--r--r--    1 0        0            4096 Apr 24 19:30 features
+-rw-r--r--    1 0        0            4096 Apr 24 19:30 flags
+-r--r--r--    1 0        0            4096 Apr 24 19:30 ifindex
+-r--r--r--    1 0        0            4096 Apr 24 19:30 iflink
+-rw-r--r--    1 0        0            4096 Apr 24 19:30 mtu
+drwxr-xr-x    2 0        0               0 Apr 24 19:30 statistics
+-rw-r--r--    1 0        0            4096 Apr 24 19:30 tx_queue_len
+-r--r--r--    1 0        0            4096 Apr 24 19:30 type
+--w-------    1 0        0            4096 Apr 24 19:30 uevent
+-rw-r--r--    1 0        0            4096 Apr 24 19:30 weight
+
+sys/class/net/ip6tnl0/statistics:
+-r--r--r--    1 0        0            4096 Apr 24 19:30 collisions
+-r--r--r--    1 0        0            4096 Apr 24 19:30 multicast
+-r--r--r--    1 0        0            4096 Apr 24 19:30 rx_bytes
+-r--r--r--    1 0        0            4096 Apr 24 19:30 rx_compressed
+-r--r--r--    1 0        0            4096 Apr 24 19:30 rx_crc_errors
+-r--r--r--    1 0        0            4096 Apr 24 19:30 rx_dropped
+-r--r--r--    1 0        0            4096 Apr 24 19:30 rx_errors
+-r--r--r--    1 0        0            4096 Apr 24 19:30 rx_fifo_errors
+-r--r--r--    1 0        0            4096 Apr 24 19:30 rx_frame_errors
+-r--r--r--    1 0        0            4096 Apr 24 19:30 rx_length_errors
+-r--r--r--    1 0        0            4096 Apr 24 19:30 rx_missed_errors
+-r--r--r--    1 0        0            4096 Apr 24 19:30 rx_over_errors
+-r--r--r--    1 0        0            4096 Apr 24 19:30 rx_packets
+-r--r--r--    1 0        0            4096 Apr 24 19:30 tx_aborted_errors
+-r--r--r--    1 0        0            4096 Apr 24 19:30 tx_bytes
+-r--r--r--    1 0        0            4096 Apr 24 19:30 tx_carrier_errors
+-r--r--r--    1 0        0            4096 Apr 24 19:30 tx_compressed
+-r--r--r--    1 0        0            4096 Apr 24 19:30 tx_dropped
+-r--r--r--    1 0        0            4096 Apr 24 19:30 tx_errors
+-r--r--r--    1 0        0            4096 Apr 24 19:30 tx_fifo_errors
+-r--r--r--    1 0        0            4096 Apr 24 19:30 tx_heartbeat_errors
+-r--r--r--    1 0        0            4096 Apr 24 19:30 tx_packets
+-r--r--r--    1 0        0            4096 Apr 24 19:30 tx_window_errors
+
+sys/class/net/lo:
+-r--r--r--    1 0        0            4096 Apr 24 19:30 addr_len
+-r--r--r--    1 0        0            4096 Apr 24 19:30 address
+-r--r--r--    1 0        0            4096 Apr 24 19:30 broadcast
+-r--r--r--    1 0        0            4096 Apr 24 19:30 carrier
+-r--r--r--    1 0        0            4096 Apr 24 19:30 features
+-rw-r--r--    1 0        0            4096 Apr 24 19:30 flags
+-r--r--r--    1 0        0            4096 Apr 24 19:30 ifindex
+-r--r--r--    1 0        0            4096 Apr 24 19:30 iflink
+-rw-r--r--    1 0        0            4096 Apr 24 19:30 mtu
+drwxr-xr-x    2 0        0               0 Apr 24 19:30 statistics
+-rw-r--r--    1 0        0            4096 Apr 24 19:30 tx_queue_len
+-r--r--r--    1 0        0            4096 Apr 24 19:30 type
+--w-------    1 0        0            4096 Apr 24 19:30 uevent
+-rw-r--r--    1 0        0            4096 Apr 24 19:30 weight
+
+sys/class/net/lo/statistics:
+-r--r--r--    1 0        0            4096 Apr 24 19:30 collisions
+-r--r--r--    1 0        0            4096 Apr 24 19:30 multicast
+-r--r--r--    1 0        0            4096 Apr 24 19:30 rx_bytes
+-r--r--r--    1 0        0            4096 Apr 24 19:30 rx_compressed
+-r--r--r--    1 0        0            4096 Apr 24 19:30 rx_crc_errors
+-r--r--r--    1 0        0            4096 Apr 24 19:30 rx_dropped
+-r--r--r--    1 0        0            4096 Apr 24 19:30 rx_errors
+-r--r--r--    1 0        0            4096 Apr 24 19:30 rx_fifo_errors
+-r--r--r--    1 0        0            4096 Apr 24 19:30 rx_frame_errors
+-r--r--r--    1 0        0            4096 Apr 24 19:30 rx_length_errors
+-r--r--r--    1 0        0            4096 Apr 24 19:30 rx_missed_errors
+-r--r--r--    1 0        0            4096 Apr 24 19:30 rx_over_errors
+-r--r--r--    1 0        0            4096 Apr 24 19:30 rx_packets
+-r--r--r--    1 0        0            4096 Apr 24 19:30 tx_aborted_errors
+-r--r--r--    1 0        0            4096 Apr 24 19:30 tx_bytes
+-r--r--r--    1 0        0            4096 Apr 24 19:30 tx_carrier_errors
+-r--r--r--    1 0        0            4096 Apr 24 19:30 tx_compressed
+-r--r--r--    1 0        0            4096 Apr 24 19:30 tx_dropped
+-r--r--r--    1 0        0            4096 Apr 24 19:30 tx_errors
+-r--r--r--    1 0        0            4096 Apr 24 19:30 tx_fifo_errors
+-r--r--r--    1 0        0            4096 Apr 24 19:30 tx_heartbeat_errors
+-r--r--r--    1 0        0            4096 Apr 24 19:30 tx_packets
+-r--r--r--    1 0        0            4096 Apr 24 19:30 tx_window_errors
+
+sys/class/net/sit0:
+-r--r--r--    1 0        0            4096 Apr 24 19:30 addr_len
+-r--r--r--    1 0        0            4096 Apr 24 19:30 address
+-r--r--r--    1 0        0            4096 Apr 24 19:30 broadcast
+-r--r--r--    1 0        0            4096 Apr 24 19:30 carrier
+-r--r--r--    1 0        0            4096 Apr 24 19:30 features
+-rw-r--r--    1 0        0            4096 Apr 24 19:30 flags
+-r--r--r--    1 0        0            4096 Apr 24 19:30 ifindex
+-r--r--r--    1 0        0            4096 Apr 24 19:30 iflink
+-rw-r--r--    1 0        0            4096 Apr 24 19:30 mtu
+drwxr-xr-x    2 0        0               0 Apr 24 19:30 statistics
+-rw-r--r--    1 0        0            4096 Apr 24 19:30 tx_queue_len
+-r--r--r--    1 0        0            4096 Apr 24 19:30 type
+--w-------    1 0        0            4096 Apr 24 19:30 uevent
+-rw-r--r--    1 0        0            4096 Apr 24 19:30 weight
+
+sys/class/net/sit0/statistics:
+-r--r--r--    1 0        0            4096 Apr 24 19:30 collisions
+-r--r--r--    1 0        0            4096 Apr 24 19:30 multicast
+-r--r--r--    1 0        0            4096 Apr 24 19:30 rx_bytes
+-r--r--r--    1 0        0            4096 Apr 24 19:30 rx_compressed
+-r--r--r--    1 0        0            4096 Apr 24 19:30 rx_crc_errors
+-r--r--r--    1 0        0            4096 Apr 24 19:30 rx_dropped
+-r--r--r--    1 0        0            4096 Apr 24 19:30 rx_errors
+-r--r--r--    1 0        0            4096 Apr 24 19:30 rx_fifo_errors
+-r--r--r--    1 0        0            4096 Apr 24 19:30 rx_frame_errors
+-r--r--r--    1 0        0            4096 Apr 24 19:30 rx_length_errors
+-r--r--r--    1 0        0            4096 Apr 24 19:30 rx_missed_errors
+-r--r--r--    1 0        0            4096 Apr 24 19:30 rx_over_errors
+-r--r--r--    1 0        0            4096 Apr 24 19:30 rx_packets
+-r--r--r--    1 0        0            4096 Apr 24 19:30 tx_aborted_errors
+-r--r--r--    1 0        0            4096 Apr 24 19:30 tx_bytes
+-r--r--r--    1 0        0            4096 Apr 24 19:30 tx_carrier_errors
+-r--r--r--    1 0        0            4096 Apr 24 19:30 tx_compressed
+-r--r--r--    1 0        0            4096 Apr 24 19:30 tx_dropped
+-r--r--r--    1 0        0            4096 Apr 24 19:30 tx_errors
+-r--r--r--    1 0        0            4096 Apr 24 19:30 tx_fifo_errors
+-r--r--r--    1 0        0            4096 Apr 24 19:30 tx_heartbeat_errors
+-r--r--r--    1 0        0            4096 Apr 24 19:30 tx_packets
+-r--r--r--    1 0        0            4096 Apr 24 19:30 tx_window_errors
+
+sys/class/net/wifi0:
+-r--r--r--    1 0        0            4096 Apr 24 19:30 addr_len
+-r--r--r--    1 0        0            4096 Apr 24 19:30 address
+-r--r--r--    1 0        0            4096 Apr 24 19:30 broadcast
+-r--r--r--    1 0        0            4096 Apr 24 19:30 carrier
+lrwxrwxrwx    1 0        0               0 Apr 24 19:30 device -> ../../../devices/pci0000:00/0000:00:01.0
+-r--r--r--    1 0        0            4096 Apr 24 19:30 features
+-rw-r--r--    1 0        0            4096 Apr 24 19:30 flags
+-r--r--r--    1 0        0            4096 Apr 24 19:30 ifindex
+-r--r--r--    1 0        0            4096 Apr 24 19:30 iflink
+-rw-r--r--    1 0        0            4096 Apr 24 19:30 mtu
+drwxr-xr-x    2 0        0               0 Apr 24 19:30 statistics
+-rw-r--r--    1 0        0            4096 Apr 24 19:30 tx_queue_len
+-r--r--r--    1 0        0            4096 Apr 24 19:30 type
+--w-------    1 0        0            4096 Apr 24 19:30 uevent
+-rw-r--r--    1 0        0            4096 Apr 24 19:30 weight
+
+sys/class/net/wifi0/statistics:
+-r--r--r--    1 0        0            4096 Apr 24 19:30 collisions
+-r--r--r--    1 0        0            4096 Apr 24 19:30 multicast
+-r--r--r--    1 0        0            4096 Apr 24 19:30 rx_bytes
+-r--r--r--    1 0        0            4096 Apr 24 19:30 rx_compressed
+-r--r--r--    1 0        0            4096 Apr 24 19:30 rx_crc_errors
+-r--r--r--    1 0        0            4096 Apr 24 19:30 rx_dropped
+-r--r--r--    1 0        0            4096 Apr 24 19:30 rx_errors
+-r--r--r--    1 0        0            4096 Apr 24 19:30 rx_fifo_errors
+-r--r--r--    1 0        0            4096 Apr 24 19:30 rx_frame_errors
+-r--r--r--    1 0        0            4096 Apr 24 19:30 rx_length_errors
+-r--r--r--    1 0        0            4096 Apr 24 19:30 rx_missed_errors
+-r--r--r--    1 0        0            4096 Apr 24 19:30 rx_over_errors
+-r--r--r--    1 0        0            4096 Apr 24 19:30 rx_packets
+-r--r--r--    1 0        0            4096 Apr 24 19:30 tx_aborted_errors
+-r--r--r--    1 0        0            4096 Apr 24 19:30 tx_bytes
+-r--r--r--    1 0        0            4096 Apr 24 19:30 tx_carrier_errors
+-r--r--r--    1 0        0            4096 Apr 24 19:30 tx_compressed
+-r--r--r--    1 0        0            4096 Apr 24 19:30 tx_dropped
+-r--r--r--    1 0        0            4096 Apr 24 19:30 tx_errors
+-r--r--r--    1 0        0            4096 Apr 24 19:30 tx_fifo_errors
+-r--r--r--    1 0        0            4096 Apr 24 19:30 tx_heartbeat_errors
+-r--r--r--    1 0        0            4096 Apr 24 19:30 tx_packets
+-r--r--r--    1 0        0            4096 Apr 24 19:30 tx_window_errors
+
+sys/class/pci_bus:
+drwxr-xr-x    2 0        0               0 Apr 24 19:30 0000:00
+drwxr-xr-x    2 0        0               0 Apr 24 19:30 0000:01
+
+sys/class/pci_bus/0000:00:
+lrwxrwxrwx    1 0        0               0 Apr 24 19:30 bridge -> ../../../devices/pci0000:00
+-r--r--r--    1 0        0            4096 Apr 24 19:30 cpuaffinity
+--w-------    1 0        0            4096 Apr 24 19:30 uevent
+
+sys/class/pci_bus/0000:01:
+lrwxrwxrwx    1 0        0               0 Apr 24 19:30 bridge -> ../../../devices/pci0000:01
+-r--r--r--    1 0        0            4096 Apr 24 19:30 cpuaffinity
+--w-------    1 0        0            4096 Apr 24 19:30 uevent
+
+sys/class/scsi_device:
+
+sys/class/scsi_host:
+
+sys/class/tty:
+drwxr-xr-x    2 0        0               0 Apr 24 19:30 console
+drwxr-xr-x    2 0        0               0 Apr 24 19:30 ptmx
+drwxr-xr-x    2 0        0               0 Apr 24 19:30 ptyp0
+drwxr-xr-x    2 0        0               0 Apr 24 19:30 ptyp1
+drwxr-xr-x    2 0        0               0 Apr 24 19:30 ptyp2
+drwxr-xr-x    2 0        0               0 Apr 24 19:30 ptyp3
+drwxr-xr-x    2 0        0               0 Apr 24 19:30 ptyp4
+drwxr-xr-x    2 0        0               0 Apr 24 19:30 ptyp5
+drwxr-xr-x    2 0        0               0 Apr 24 19:30 ptyp6
+drwxr-xr-x    2 0        0               0 Apr 24 19:30 ptyp7
+drwxr-xr-x    2 0        0               0 Apr 24 19:30 ptyp8
+drwxr-xr-x    2 0        0               0 Apr 24 19:30 ptyp9
+drwxr-xr-x    2 0        0               0 Apr 24 19:30 ptypa
+drwxr-xr-x    2 0        0               0 Apr 24 19:30 ptypb
+drwxr-xr-x    2 0        0               0 Apr 24 19:30 ptypc
+drwxr-xr-x    2 0        0               0 Apr 24 19:30 ptypd
+drwxr-xr-x    2 0        0               0 Apr 24 19:30 ptype
+drwxr-xr-x    2 0        0               0 Apr 24 19:30 ptypf
+drwxr-xr-x    2 0        0               0 Apr 24 19:30 tty
+drwxr-xr-x    2 0        0               0 Apr 24 19:30 ttyS0
+drwxr-xr-x    2 0        0               0 Apr 24 19:30 ttyS1
+drwxr-xr-x    2 0        0               0 Apr 24 19:30 ttyS2
+drwxr-xr-x    2 0        0               0 Apr 24 19:30 ttyS3
+drwxr-xr-x    2 0        0               0 Apr 24 19:30 ttyp0
+drwxr-xr-x    2 0        0               0 Apr 24 19:30 ttyp1
+drwxr-xr-x    2 0        0               0 Apr 24 19:30 ttyp2
+drwxr-xr-x    2 0        0               0 Apr 24 19:30 ttyp3
+drwxr-xr-x    2 0        0               0 Apr 24 19:30 ttyp4
+drwxr-xr-x    2 0        0               0 Apr 24 19:30 ttyp5
+drwxr-xr-x    2 0        0               0 Apr 24 19:30 ttyp6
+drwxr-xr-x    2 0        0               0 Apr 24 19:30 ttyp7
+drwxr-xr-x    2 0        0               0 Apr 24 19:30 ttyp8
+drwxr-xr-x    2 0        0               0 Apr 24 19:30 ttyp9
+drwxr-xr-x    2 0        0               0 Apr 24 19:30 ttypa
+drwxr-xr-x    2 0        0               0 Apr 24 19:30 ttypb
+drwxr-xr-x    2 0        0               0 Apr 24 19:30 ttypc
+drwxr-xr-x    2 0        0               0 Apr 24 19:30 ttypd
+drwxr-xr-x    2 0        0               0 Apr 24 19:30 ttype
+drwxr-xr-x    2 0        0               0 Apr 24 19:30 ttypf
+
+sys/class/tty/console:
+-r--r--r--    1 0        0            4096 Apr 24 19:30 dev
+--w-------    1 0        0            4096 Apr 24 19:30 uevent
+
+sys/class/tty/ptmx:
+-r--r--r--    1 0        0            4096 Apr 24 19:30 dev
+--w-------    1 0        0            4096 Apr 24 19:30 uevent
+
+sys/class/tty/ptyp0:
+-r--r--r--    1 0        0            4096 Apr 24 19:30 dev
+--w-------    1 0        0            4096 Apr 24 19:30 uevent
+
+sys/class/tty/ptyp1:
+-r--r--r--    1 0        0            4096 Apr 24 19:30 dev
+--w-------    1 0        0            4096 Apr 24 19:30 uevent
+
+sys/class/tty/ptyp2:
+-r--r--r--    1 0        0            4096 Apr 24 19:30 dev
+--w-------    1 0        0            4096 Apr 24 19:30 uevent
+
+sys/class/tty/ptyp3:
+-r--r--r--    1 0        0            4096 Apr 24 19:30 dev
+--w-------    1 0        0            4096 Apr 24 19:30 uevent
+
+sys/class/tty/ptyp4:
+-r--r--r--    1 0        0            4096 Apr 24 19:30 dev
+--w-------    1 0        0            4096 Apr 24 19:30 uevent
+
+sys/class/tty/ptyp5:
+-r--r--r--    1 0        0            4096 Apr 24 19:30 dev
+--w-------    1 0        0            4096 Apr 24 19:30 uevent
+
+sys/class/tty/ptyp6:
+-r--r--r--    1 0        0            4096 Apr 24 19:30 dev
+--w-------    1 0        0            4096 Apr 24 19:30 uevent
+
+sys/class/tty/ptyp7:
+-r--r--r--    1 0        0            4096 Apr 24 19:30 dev
+--w-------    1 0        0            4096 Apr 24 19:30 uevent
+
+sys/class/tty/ptyp8:
+-r--r--r--    1 0        0            4096 Apr 24 19:30 dev
+--w-------    1 0        0            4096 Apr 24 19:30 uevent
+
+sys/class/tty/ptyp9:
+-r--r--r--    1 0        0            4096 Apr 24 19:30 dev
+--w-------    1 0        0            4096 Apr 24 19:30 uevent
+
+sys/class/tty/ptypa:
+-r--r--r--    1 0        0            4096 Apr 24 19:30 dev
+--w-------    1 0        0            4096 Apr 24 19:30 uevent
+
+sys/class/tty/ptypb:
+-r--r--r--    1 0        0            4096 Apr 24 19:30 dev
+--w-------    1 0        0            4096 Apr 24 19:30 uevent
+
+sys/class/tty/ptypc:
+-r--r--r--    1 0        0            4096 Apr 24 19:30 dev
+--w-------    1 0        0            4096 Apr 24 19:30 uevent
+
+sys/class/tty/ptypd:
+-r--r--r--    1 0        0            4096 Apr 24 19:30 dev
+--w-------    1 0        0            4096 Apr 24 19:30 uevent
+
+sys/class/tty/ptype:
+-r--r--r--    1 0        0            4096 Apr 24 19:30 dev
+--w-------    1 0        0            4096 Apr 24 19:30 uevent
+
+sys/class/tty/ptypf:
+-r--r--r--    1 0        0            4096 Apr 24 19:30 dev
+--w-------    1 0        0            4096 Apr 24 19:30 uevent
+
+sys/class/tty/tty:
+-r--r--r--    1 0        0            4096 Apr 24 19:30 dev
+--w-------    1 0        0            4096 Apr 24 19:30 uevent
+
+sys/class/tty/ttyS0:
+-r--r--r--    1 0        0            4096 Apr 24 19:30 dev
+lrwxrwxrwx    1 0        0               0 Apr 24 19:30 device -> ../../../devices/platform/serial8250.0
+--w-------    1 0        0            4096 Apr 24 19:30 uevent
+
+sys/class/tty/ttyS1:
+-r--r--r--    1 0        0            4096 Apr 24 19:30 dev
+lrwxrwxrwx    1 0        0               0 Apr 24 19:30 device -> ../../../devices/platform/serial8250
+--w-------    1 0        0            4096 Apr 24 19:30 uevent
+
+sys/class/tty/ttyS2:
+-r--r--r--    1 0        0            4096 Apr 24 19:30 dev
+lrwxrwxrwx    1 0        0               0 Apr 24 19:30 device -> ../../../devices/platform/serial8250
+--w-------    1 0        0            4096 Apr 24 19:30 uevent
+
+sys/class/tty/ttyS3:
+-r--r--r--    1 0        0            4096 Apr 24 19:30 dev
+lrwxrwxrwx    1 0        0               0 Apr 24 19:30 device -> ../../../devices/platform/serial8250
+--w-------    1 0        0            4096 Apr 24 19:30 uevent
+
+sys/class/tty/ttyp0:
+-r--r--r--    1 0        0            4096 Apr 24 19:30 dev
+--w-------    1 0        0            4096 Apr 24 19:30 uevent
+
+sys/class/tty/ttyp1:
+-r--r--r--    1 0        0            4096 Apr 24 19:30 dev
+--w-------    1 0        0            4096 Apr 24 19:30 uevent
+
+sys/class/tty/ttyp2:
+-r--r--r--    1 0        0            4096 Apr 24 19:30 dev
+--w-------    1 0        0            4096 Apr 24 19:30 uevent
+
+sys/class/tty/ttyp3:
+-r--r--r--    1 0        0            4096 Apr 24 19:30 dev
+--w-------    1 0        0            4096 Apr 24 19:30 uevent
+
+sys/class/tty/ttyp4:
+-r--r--r--    1 0        0            4096 Apr 24 19:30 dev
+--w-------    1 0        0            4096 Apr 24 19:30 uevent
+
+sys/class/tty/ttyp5:
+-r--r--r--    1 0        0            4096 Apr 24 19:30 dev
+--w-------    1 0        0            4096 Apr 24 19:30 uevent
+
+sys/class/tty/ttyp6:
+-r--r--r--    1 0        0            4096 Apr 24 19:30 dev
+--w-------    1 0        0            4096 Apr 24 19:30 uevent
+
+sys/class/tty/ttyp7:
+-r--r--r--    1 0        0            4096 Apr 24 19:30 dev
+--w-------    1 0        0            4096 Apr 24 19:30 uevent
+
+sys/class/tty/ttyp8:
+-r--r--r--    1 0        0            4096 Apr 24 19:30 dev
+--w-------    1 0        0            4096 Apr 24 19:30 uevent
+
+sys/class/tty/ttyp9:
+-r--r--r--    1 0        0            4096 Apr 24 19:30 dev
+--w-------    1 0        0            4096 Apr 24 19:30 uevent
+
+sys/class/tty/ttypa:
+-r--r--r--    1 0        0            4096 Apr 24 19:30 dev
+--w-------    1 0        0            4096 Apr 24 19:30 uevent
+
+sys/class/tty/ttypb:
+-r--r--r--    1 0        0            4096 Apr 24 19:30 dev
+--w-------    1 0        0            4096 Apr 24 19:30 uevent
+
+sys/class/tty/ttypc:
+-r--r--r--    1 0        0            4096 Apr 24 19:30 dev
+--w-------    1 0        0            4096 Apr 24 19:30 uevent
+
+sys/class/tty/ttypd:
+-r--r--r--    1 0        0            4096 Apr 24 19:30 dev
+--w-------    1 0        0            4096 Apr 24 19:30 uevent
+
+sys/class/tty/ttype:
+-r--r--r--    1 0        0            4096 Apr 24 19:30 dev
+--w-------    1 0        0            4096 Apr 24 19:30 uevent
+
+sys/class/tty/ttypf:
+-r--r--r--    1 0        0            4096 Apr 24 19:30 dev
+--w-------    1 0        0            4096 Apr 24 19:30 uevent
+
+sys/class/usb:
+
+sys/class/usb_device:
+drwxr-xr-x    2 0        0               0 Apr 24 19:30 usbdev1.1
+drwxr-xr-x    2 0        0               0 Apr 24 19:30 usbdev1.2
+
+sys/class/usb_device/usbdev1.1:
+-r--r--r--    1 0        0            4096 Apr 24 19:30 dev
+lrwxrwxrwx    1 0        0               0 Apr 24 19:30 device -> ../../../devices/platform/ehci_marvell.70059/usb1
+--w-------    1 0        0            4096 Apr 24 19:30 uevent
+
+sys/class/usb_device/usbdev1.2:
+-r--r--r--    1 0        0            4096 Apr 24 19:30 dev
+lrwxrwxrwx    1 0        0               0 Apr 24 19:30 device -> ../../../devices/platform/ehci_marvell.70059/usb1/1-1
+--w-------    1 0        0            4096 Apr 24 19:30 uevent
+
+sys/class/usb_host:
+drwxr-xr-x    2 0        0               0 Apr 24 19:30 usb_host1
+
+sys/class/usb_host/usb_host1:
+lrwxrwxrwx    1 0        0               0 Apr 24 19:30 device -> ../../../devices/platform/ehci_marvell.70059
+--w-------    1 0        0            4096 Apr 24 19:30 uevent
+
+sys/devices:
+drwxr-xr-x    3 0        0               0 Apr 24 19:30 pci0000:00
+drwxr-xr-x    2 0        0               0 Apr 24 19:30 pci0000:01
+drwxr-xr-x   10 0        0               0 Apr 24 19:30 platform
+drwxr-xr-x    4 0        0               0 Dec 31  1969 system
+
+sys/devices/pci0000:00:
+drwxr-xr-x    2 0        0               0 Apr 24 19:30 0000:00:01.0
+--w-------    1 0        0            4096 Apr 24 19:30 uevent
+
+sys/devices/pci0000:00/0000:00:01.0:
+lrwxrwxrwx    1 0        0               0 Apr 24 19:30 bus -> ../../../bus/pci
+-r--r--r--    1 0        0            4096 Apr 24 19:30 class
+-rw-r--r--    1 0        0            4096 Apr 24 19:30 config
+-r--r--r--    1 0        0            4096 Apr 24 19:30 device
+lrwxrwxrwx    1 0        0               0 Apr 24 19:30 driver -> ../../../bus/pci/drivers/ath_pci
+-r--r--r--    1 0        0            4096 Apr 24 19:30 irq
+-r--r--r--    1 0        0            4096 Apr 24 19:30 local_cpus
+-r--r--r--    1 0        0            4096 Apr 24 19:30 modalias
+lrwxrwxrwx    1 0        0               0 Apr 24 19:30 net:wifi0 -> ../../../class/net/wifi0
+-r--r--r--    1 0        0            4096 Apr 24 19:30 resource
+-rw-------    1 0        0           65536 Apr 24 19:30 resource0
+-r--r--r--    1 0        0            4096 Apr 24 19:30 subsystem_device
+-r--r--r--    1 0        0            4096 Apr 24 19:30 subsystem_vendor
+--w-------    1 0        0            4096 Apr 24 19:30 uevent
+-r--r--r--    1 0        0            4096 Apr 24 19:30 vendor
+
+sys/devices/pci0000:01:
+--w-------    1 0        0            4096 Apr 24 19:30 uevent
+
+sys/devices/platform:
+drwxr-xr-x    3 0        0               0 Apr 24 19:30 ehci_marvell.70059
+drwxr-xr-x    2 0        0               0 Apr 24 19:30 feroceon_wdt
+drwxr-xr-x    2 0        0               0 Apr 24 19:30 i2c-0
+drwxr-xr-x    2 0        0               0 Apr 24 19:30 mv64xxx_i2c.0
+drwxr-xr-x    2 0        0               0 Apr 24 19:30 mv88fx_eth.0
+drwxr-xr-x    6 0        0               0 Apr 24 19:30 neta
+drwxr-xr-x    2 0        0               0 Apr 24 19:30 serial8250
+drwxr-xr-x    2 0        0               0 Apr 24 19:30 serial8250.0
+--w-------    1 0        0            4096 Apr 24 19:30 uevent
+
+sys/devices/platform/ehci_marvell.70059:
+lrwxrwxrwx    1 0        0               0 Apr 24 19:30 bus -> ../../../bus/platform
+lrwxrwxrwx    1 0        0               0 Apr 24 19:30 driver -> ../../../bus/platform/drivers/ehci_marvell
+-r--r--r--    1 0        0            4096 Apr 24 19:30 pools
+--w-------    1 0        0            4096 Apr 24 19:30 uevent
+drwxr-xr-x    5 0        0               0 Apr 24 19:30 usb1
+lrwxrwxrwx    1 0        0               0 Apr 24 19:30 usb_host:usb_host1 -> ../../../class/usb_host/usb_host1
+
+sys/devices/platform/ehci_marvell.70059/usb1:
+drwxr-xr-x    3 0        0               0 Apr 24 19:30 1-0:1.0
+drwxr-xr-x    4 0        0               0 Apr 24 19:30 1-1
+-rw-r--r--    1 0        0            4096 Apr 24 19:30 bConfigurationValue
+-r--r--r--    1 0        0            4096 Apr 24 19:30 bDeviceClass
+-r--r--r--    1 0        0            4096 Apr 24 19:30 bDeviceProtocol
+-r--r--r--    1 0        0            4096 Apr 24 19:30 bDeviceSubClass
+-r--r--r--    1 0        0            4096 Apr 24 19:30 bMaxPacketSize0
+-r--r--r--    1 0        0            4096 Apr 24 19:30 bMaxPower
+-r--r--r--    1 0        0            4096 Apr 24 19:30 bNumConfigurations
+-r--r--r--    1 0        0            4096 Apr 24 19:30 bNumInterfaces
+-r--r--r--    1 0        0            4096 Apr 24 19:30 bcdDevice
+-r--r--r--    1 0        0            4096 Apr 24 19:30 bmAttributes
+lrwxrwxrwx    1 0        0               0 Apr 24 19:30 bus -> ../../../../bus/usb
+-r--r--r--    1 0        0            4096 Apr 24 19:30 configuration
+-r--r--r--    1 0        0            4096 Apr 24 19:30 devnum
+lrwxrwxrwx    1 0        0               0 Apr 24 19:30 driver -> ../../../../bus/usb/drivers/usb
+drwxr-xr-x    2 0        0               0 Apr 24 19:30 ep_00
+-r--r--r--    1 0        0            4096 Apr 24 19:30 idProduct
+-r--r--r--    1 0        0            4096 Apr 24 19:30 idVendor
+-r--r--r--    1 0        0            4096 Apr 24 19:30 manufacturer
+-r--r--r--    1 0        0            4096 Apr 24 19:30 maxchild
+-r--r--r--    1 0        0            4096 Apr 24 19:30 product
+-r--r--r--    1 0        0            4096 Apr 24 19:30 serial
+-r--r--r--    1 0        0            4096 Apr 24 19:30 speed
+--w-------    1 0        0            4096 Apr 24 19:30 uevent
+lrwxrwxrwx    1 0        0               0 Apr 24 19:30 usb_device:usbdev1.1 -> ../../../../class/usb_device/usbdev1.1
+-r--r--r--    1 0        0            4096 Apr 24 19:30 version
+
+sys/devices/platform/ehci_marvell.70059/usb1/1-0:1.0:
+-r--r--r--    1 0        0            4096 Apr 24 19:30 bAlternateSetting
+-r--r--r--    1 0        0            4096 Apr 24 19:30 bInterfaceClass
+-r--r--r--    1 0        0            4096 Apr 24 19:30 bInterfaceNumber
+-r--r--r--    1 0        0            4096 Apr 24 19:30 bInterfaceProtocol
+-r--r--r--    1 0        0            4096 Apr 24 19:30 bInterfaceSubClass
+-r--r--r--    1 0        0            4096 Apr 24 19:30 bNumEndpoints
+lrwxrwxrwx    1 0        0               0 Apr 24 19:30 bus -> ../../../../../bus/usb
+lrwxrwxrwx    1 0        0               0 Apr 24 19:30 driver -> ../../../../../bus/usb/drivers/hub
+drwxr-xr-x    2 0        0               0 Apr 24 19:30 ep_81
+-r--r--r--    1 0        0            4096 Apr 24 19:30 modalias
+--w-------    1 0        0            4096 Apr 24 19:30 uevent
+
+sys/devices/platform/ehci_marvell.70059/usb1/1-0:1.0/ep_81:
+-r--r--r--    1 0        0            4096 Apr 24 19:30 bEndpointAddress
+-r--r--r--    1 0        0            4096 Apr 24 19:30 bInterval
+-r--r--r--    1 0        0            4096 Apr 24 19:30 bLength
+-r--r--r--    1 0        0            4096 Apr 24 19:30 bmAttributes
+-r--r--r--    1 0        0            4096 Apr 24 19:30 direction
+-r--r--r--    1 0        0            4096 Apr 24 19:30 interval
+-r--r--r--    1 0        0            4096 Apr 24 19:30 type
+-r--r--r--    1 0        0            4096 Apr 24 19:30 wMaxPacketSize
+
+sys/devices/platform/ehci_marvell.70059/usb1/1-1:
+drwxr-xr-x    3 0        0               0 Apr 24 19:30 1-1:1.0
+-rw-r--r--    1 0        0            4096 Apr 24 19:30 bConfigurationValue
+-r--r--r--    1 0        0            4096 Apr 24 19:30 bDeviceClass
+-r--r--r--    1 0        0            4096 Apr 24 19:30 bDeviceProtocol
+-r--r--r--    1 0        0            4096 Apr 24 19:30 bDeviceSubClass
+-r--r--r--    1 0        0            4096 Apr 24 19:30 bMaxPacketSize0
+-r--r--r--    1 0        0            4096 Apr 24 19:30 bMaxPower
+-r--r--r--    1 0        0            4096 Apr 24 19:30 bNumConfigurations
+-r--r--r--    1 0        0            4096 Apr 24 19:30 bNumInterfaces
+-r--r--r--    1 0        0            4096 Apr 24 19:30 bcdDevice
+-r--r--r--    1 0        0            4096 Apr 24 19:30 bmAttributes
+lrwxrwxrwx    1 0        0               0 Apr 24 19:30 bus -> ../../../../../bus/usb
+-r--r--r--    1 0        0            4096 Apr 24 19:30 configuration
+-r--r--r--    1 0        0            4096 Apr 24 19:30 devnum
+lrwxrwxrwx    1 0        0               0 Apr 24 19:30 driver -> ../../../../../bus/usb/drivers/usb
+drwxr-xr-x    2 0        0               0 Apr 24 19:30 ep_00
+-r--r--r--    1 0        0            4096 Apr 24 19:30 idProduct
+-r--r--r--    1 0        0            4096 Apr 24 19:30 idVendor
+-r--r--r--    1 0        0            4096 Apr 24 19:30 maxchild
+-r--r--r--    1 0        0            4096 Apr 24 19:30 product
+-r--r--r--    1 0        0            4096 Apr 24 19:30 speed
+--w-------    1 0        0            4096 Apr 24 19:30 uevent
+lrwxrwxrwx    1 0        0               0 Apr 24 19:30 usb_device:usbdev1.2 -> ../../../../../class/usb_device/usbdev1.2
+-r--r--r--    1 0        0            4096 Apr 24 19:30 version
+
+sys/devices/platform/ehci_marvell.70059/usb1/1-1/1-1:1.0:
+-r--r--r--    1 0        0            4096 Apr 24 19:30 bAlternateSetting
+-r--r--r--    1 0        0            4096 Apr 24 19:30 bInterfaceClass
+-r--r--r--    1 0        0            4096 Apr 24 19:30 bInterfaceNumber
+-r--r--r--    1 0        0            4096 Apr 24 19:30 bInterfaceProtocol
+-r--r--r--    1 0        0            4096 Apr 24 19:30 bInterfaceSubClass
+-r--r--r--    1 0        0            4096 Apr 24 19:30 bNumEndpoints
+lrwxrwxrwx    1 0        0               0 Apr 24 19:30 bus -> ../../../../../../bus/usb
+lrwxrwxrwx    1 0        0               0 Apr 24 19:30 driver -> ../../../../../../bus/usb/drivers/hub
+drwxr-xr-x    2 0        0               0 Apr 24 19:30 ep_81
+-r--r--r--    1 0        0            4096 Apr 24 19:30 modalias
+--w-------    1 0        0            4096 Apr 24 19:30 uevent
+
+sys/devices/platform/ehci_marvell.70059/usb1/1-1/1-1:1.0/ep_81:
+-r--r--r--    1 0        0            4096 Apr 24 19:30 bEndpointAddress
+-r--r--r--    1 0        0            4096 Apr 24 19:30 bInterval
+-r--r--r--    1 0        0            4096 Apr 24 19:30 bLength
+-r--r--r--    1 0        0            4096 Apr 24 19:30 bmAttributes
+-r--r--r--    1 0        0            4096 Apr 24 19:30 direction
+-r--r--r--    1 0        0            4096 Apr 24 19:30 interval
+-r--r--r--    1 0        0            4096 Apr 24 19:30 type
+-r--r--r--    1 0        0            4096 Apr 24 19:30 wMaxPacketSize
+
+sys/devices/platform/ehci_marvell.70059/usb1/1-1/ep_00:
+-r--r--r--    1 0        0            4096 Apr 24 19:30 bEndpointAddress
+-r--r--r--    1 0        0            4096 Apr 24 19:30 bInterval
+-r--r--r--    1 0        0            4096 Apr 24 19:30 bLength
+-r--r--r--    1 0        0            4096 Apr 24 19:30 bmAttributes
+-r--r--r--    1 0        0            4096 Apr 24 19:30 direction
+-r--r--r--    1 0        0            4096 Apr 24 19:30 interval
+-r--r--r--    1 0        0            4096 Apr 24 19:30 type
+-r--r--r--    1 0        0            4096 Apr 24 19:30 wMaxPacketSize
+
+sys/devices/platform/ehci_marvell.70059/usb1/ep_00:
+-r--r--r--    1 0        0            4096 Apr 24 19:30 bEndpointAddress
+-r--r--r--    1 0        0            4096 Apr 24 19:30 bInterval
+-r--r--r--    1 0        0            4096 Apr 24 19:30 bLength
+-r--r--r--    1 0        0            4096 Apr 24 19:30 bmAttributes
+-r--r--r--    1 0        0            4096 Apr 24 19:30 direction
+-r--r--r--    1 0        0            4096 Apr 24 19:30 interval
+-r--r--r--    1 0        0            4096 Apr 24 19:30 type
+-r--r--r--    1 0        0            4096 Apr 24 19:30 wMaxPacketSize
+
+sys/devices/platform/feroceon_wdt:
+lrwxrwxrwx    1 0        0               0 Apr 24 19:30 bus -> ../../../bus/platform
+lrwxrwxrwx    1 0        0               0 Apr 24 19:30 driver -> ../../../bus/platform/drivers/feroceon_wdt
+lrwxrwxrwx    1 0        0               0 Apr 24 19:30 misc:watchdog -> ../../../class/misc/watchdog
+--w-------    1 0        0            4096 Apr 24 19:30 uevent
+
+sys/devices/platform/i2c-0:
+lrwxrwxrwx    1 0        0               0 Apr 24 19:30 i2c-adapter:i2c-0 -> ../../../class/i2c-adapter/i2c-0
+lrwxrwxrwx    1 0        0               0 Apr 24 19:30 i2c-dev:i2c-0 -> ../../../class/i2c-dev/i2c-0
+-r--r--r--    1 0        0            4096 Apr 24 19:30 name
+--w-------    1 0        0            4096 Apr 24 19:30 uevent
+
+sys/devices/platform/mv64xxx_i2c.0:
+lrwxrwxrwx    1 0        0               0 Apr 24 19:30 bus -> ../../../bus/platform
+lrwxrwxrwx    1 0        0               0 Apr 24 19:30 driver -> ../../../bus/platform/drivers/mv64xxx_i2c
+--w-------    1 0        0            4096 Apr 24 19:30 uevent
+
+sys/devices/platform/mv88fx_eth.0:
+lrwxrwxrwx    1 0        0               0 Apr 24 19:30 bus -> ../../../bus/platform
+--w-------    1 0        0            4096 Apr 24 19:30 uevent
+
+sys/devices/platform/neta:
+lrwxrwxrwx    1 0        0               0 Apr 24 19:30 bus -> ../../../bus/platform
+drwxr-xr-x    2 0        0               0 Apr 24 19:30 gbe
+drwxr-xr-x    2 0        0               0 Apr 24 19:30 hwf
+drwxr-xr-x    2 0        0               0 Apr 24 19:30 pmt
+drwxr-xr-x    2 0        0               0 Apr 24 19:30 pnc
+--w-------    1 0        0            4096 Apr 24 19:30 uevent
+
+sys/devices/platform/neta/gbe:
+--w-------    1 0        0            4096 Apr 24 19:30 buf_num
+--w-------    1 0        0            4096 Apr 24 19:30 cntrs
+--w-------    1 0        0            4096 Apr 24 19:30 debug
+--w-------    1 0        0            4096 Apr 24 19:30 ejp
+-r--------    1 0        0            4096 Apr 24 19:30 help
+--w-------    1 0        0            4096 Apr 24 19:30 mac
+--w-------    1 0        0            4096 Apr 24 19:30 mh_2B
+--w-------    1 0        0            4096 Apr 24 19:30 mh_en
+--w-------    1 0        0            4096 Apr 24 19:30 p_regs
+--w-------    1 0        0            4096 Apr 24 19:30 port
+-r--------    1 0        0            4096 Apr 24 19:30 ports
+--w-------    1 0        0            4096 Apr 24 19:30 rx_reset
+--w-------    1 0        0            4096 Apr 24 19:30 rxq
+--w-------    1 0        0            4096 Apr 24 19:30 rxq_cpus
+--w-------    1 0        0            4096 Apr 24 19:30 rxq_pkts_coal
+--w-------    1 0        0            4096 Apr 24 19:30 rxq_regs
+--w-------    1 0        0            4096 Apr 24 19:30 rxq_size
+--w-------    1 0        0            4096 Apr 24 19:30 rxq_time_coal
+--w-------    1 0        0            4096 Apr 24 19:30 rxq_tos
+--w-------    1 0        0            4096 Apr 24 19:30 skb
+--w-------    1 0        0            4096 Apr 24 19:30 stats
+--w-------    1 0        0            4096 Apr 24 19:30 tos
+--w-------    1 0        0            4096 Apr 24 19:30 tx_cmd
+--w-------    1 0        0            4096 Apr 24 19:30 tx_nopad
+--w-------    1 0        0            4096 Apr 24 19:30 txp_burst
+--w-------    1 0        0            4096 Apr 24 19:30 txp_rate
+--w-------    1 0        0            4096 Apr 24 19:30 txp_reset
+--w-------    1 0        0            4096 Apr 24 19:30 txq
+--w-------    1 0        0            4096 Apr 24 19:30 txq_burst
+--w-------    1 0        0            4096 Apr 24 19:30 txq_coal
+--w-------    1 0        0            4096 Apr 24 19:30 txq_def
+--w-------    1 0        0            4096 Apr 24 19:30 txq_rate
+--w-------    1 0        0            4096 Apr 24 19:30 txq_regs
+--w-------    1 0        0            4096 Apr 24 19:30 txq_size
+--w-------    1 0        0            4096 Apr 24 19:30 txq_tos
+--w-------    1 0        0            4096 Apr 24 19:30 txq_wrr
+--w-------    1 0        0            4096 Apr 24 19:30 wrr_regs
+
+sys/devices/platform/neta/hwf:
+--w-------    1 0        0            4096 Apr 24 19:30 cntrs
+--w-------    1 0        0            4096 Apr 24 19:30 drop
+--w-------    1 0        0            4096 Apr 24 19:30 en
+-r--------    1 0        0            4096 Apr 24 19:30 help
+--w-------    1 0        0            4096 Apr 24 19:30 regs
+
+sys/devices/platform/neta/pmt:
+-r--------    1 0        0            4096 Apr 24 19:30 help
+--w-------    1 0        0            4096 Apr 24 19:30 hw_dump
+--w-------    1 0        0            4096 Apr 24 19:30 hw_dump_all
+--w-------    1 0        0            4096 Apr 24 19:30 hw_inv
+--w-------    1 0        0            4096 Apr 24 19:30 hw_inv_all
+--w-------    1 0        0            4096 Apr 24 19:30 hw_read
+--w-------    1 0        0            4096 Apr 24 19:30 hw_regs
+--w-------    1 0        0            4096 Apr 24 19:30 hw_write
+--w-------    1 0        0            4096 Apr 24 19:30 s_add_2b
+--w-------    1 0        0            4096 Apr 24 19:30 s_dec_lsb
+--w-------    1 0        0            4096 Apr 24 19:30 s_dec_msb
+--w-------    1 0        0            4096 Apr 24 19:30 s_del
+--w-------    1 0        0            4096 Apr 24 19:30 s_flags
+--w-------    1 0        0            4096 Apr 24 19:30 s_ip_csum
+--w-------    1 0        0            4096 Apr 24 19:30 s_jump
+--w-------    1 0        0            4096 Apr 24 19:30 s_l4_csum
+--w-------    1 0        0            4096 Apr 24 19:30 s_last
+--w-------    1 0        0            4096 Apr 24 19:30 s_rep_2b
+--w-------    1 0        0            4096 Apr 24 19:30 s_rep_lsb
+--w-------    1 0        0            4096 Apr 24 19:30 s_rep_msb
+--w-------    1 0        0            4096 Apr 24 19:30 s_skip
+-r--------    1 0        0            4096 Apr 24 19:30 sw_clear
+-r--------    1 0        0            4096 Apr 24 19:30 sw_dump
+--w-------    1 0        0            4096 Apr 24 19:30 sw_word
+
+sys/devices/platform/neta/pnc:
+--w-------    1 0        0            4096 Apr 24 19:30 age_clear
+--w-------    1 0        0            4096 Apr 24 19:30 age_cntr
+-r--------    1 0        0            4096 Apr 24 19:30 age_dump
+-r--------    1 0        0            4096 Apr 24 19:30 age_dump_all
+--w-------    1 0        0            4096 Apr 24 19:30 age_gr_set
+-r--------    1 0        0            4096 Apr 24 19:30 age_reset
+-r--------    1 0        0            4096 Apr 24 19:30 age_scan
+-r--------    1 0        0            4096 Apr 24 19:30 help
+--w-------    1 0        0            4096 Apr 24 19:30 hw_debug
+-r--------    1 0        0            4096 Apr 24 19:30 hw_dump
+-r--------    1 0        0            4096 Apr 24 19:30 hw_dump_all
+-rw-------    1 0        0            4096 Apr 24 19:30 hw_hits
+--w-------    1 0        0            4096 Apr 24 19:30 hw_inv
+--w-------    1 0        0            4096 Apr 24 19:30 hw_inv_all
+--w-------    1 0        0            4096 Apr 24 19:30 hw_read
+-r--------    1 0        0            4096 Apr 24 19:30 hw_regs
+--w-------    1 0        0            4096 Apr 24 19:30 hw_write
+--w-------    1 0        0            4096 Apr 24 19:30 s_ainfo
+--w-------    1 0        0            4096 Apr 24 19:30 s_flowid
+--w-------    1 0        0            4096 Apr 24 19:30 s_flowid_nibble
+--w-------    1 0        0            4096 Apr 24 19:30 s_lookup
+--w-------    1 0        0            4096 Apr 24 19:30 s_lookup_done
+--w-------    1 0        0            4096 Apr 24 19:30 s_next_lookup_shift
+--w-------    1 0        0            4096 Apr 24 19:30 s_rinfo
+--w-------    1 0        0            4096 Apr 24 19:30 s_rinfo_extra
+--w-------    1 0        0            4096 Apr 24 19:30 s_rxq
+--w-------    1 0        0            4096 Apr 24 19:30 s_shift_update
+--w-------    1 0        0            4096 Apr 24 19:30 sw_clear
+-r--------    1 0        0            4096 Apr 24 19:30 sw_dump
+--w-------    1 0        0            4096 Apr 24 19:30 sw_text
+--w-------    1 0        0            4096 Apr 24 19:30 t_ainfo
+--w-------    1 0        0            4096 Apr 24 19:30 t_ainfo_0
+--w-------    1 0        0            4096 Apr 24 19:30 t_ainfo_1
+-rw-------    1 0        0            4096 Apr 24 19:30 t_lookup
+--w-------    1 0        0            4096 Apr 24 19:30 t_offset_byte
+--w-------    1 0        0            4096 Apr 24 19:30 t_offset_mask
+-rw-------    1 0        0            4096 Apr 24 19:30 t_port
+
+sys/devices/platform/serial8250:
+lrwxrwxrwx    1 0        0               0 Apr 24 19:30 bus -> ../../../bus/platform
+lrwxrwxrwx    1 0        0               0 Apr 24 19:30 driver -> ../../../bus/platform/drivers/serial8250
+lrwxrwxrwx    1 0        0               0 Apr 24 19:30 tty:ttyS1 -> ../../../class/tty/ttyS1
+lrwxrwxrwx    1 0        0               0 Apr 24 19:30 tty:ttyS2 -> ../../../class/tty/ttyS2
+lrwxrwxrwx    1 0        0               0 Apr 24 19:30 tty:ttyS3 -> ../../../class/tty/ttyS3
+--w-------    1 0        0            4096 Apr 24 19:30 uevent
+
+sys/devices/platform/serial8250.0:
+lrwxrwxrwx    1 0        0               0 Apr 24 19:30 bus -> ../../../bus/platform
+lrwxrwxrwx    1 0        0               0 Apr 24 19:30 driver -> ../../../bus/platform/drivers/serial8250
+lrwxrwxrwx    1 0        0               0 Apr 24 19:30 tty:ttyS0 -> ../../../class/tty/ttyS0
+--w-------    1 0        0            4096 Apr 24 19:30 uevent
+
+sys/devices/system:
+drwxr-xr-x    3 0        0               0 Dec 31  1969 cpu
+drwxr-xr-x    3 0        0               0 Dec 31  1969 timer
+
+sys/devices/system/cpu:
+drwxr-xr-x    3 0        0               0 Dec 31  1999 cpu0
+
+sys/devices/system/cpu/cpu0:
+drwxr-xr-x    3 0        0               0 Apr 24 19:30 cpufreq
+
+sys/devices/system/cpu/cpu0/cpufreq:
+-r--r--r--    1 0        0            4096 Apr 24 19:30 affected_cpus
+-r--------    1 0        0            4096 Apr 24 19:30 cpuinfo_cur_freq
+-r--r--r--    1 0        0            4096 Apr 24 19:30 cpuinfo_max_freq
+-r--r--r--    1 0        0            4096 Apr 24 19:30 cpuinfo_min_freq
+-r--r--r--    1 0        0            4096 Apr 24 19:30 scaling_available_frequencies
+-r--r--r--    1 0        0            4096 Apr 24 19:30 scaling_available_governors
+-r--r--r--    1 0        0            4096 Apr 24 19:30 scaling_cur_freq
+-r--r--r--    1 0        0            4096 Apr 24 19:30 scaling_driver
+-rw-r--r--    1 0        0            4096 Apr 24 19:30 scaling_governor
+-rw-r--r--    1 0        0            4096 Apr 24 19:30 scaling_max_freq
+-rw-r--r--    1 0        0            4096 Apr 24 19:30 scaling_min_freq
+-rw-r--r--    1 0        0            4096 Apr 24 19:30 scaling_setspeed
+drwxr-xr-x    2 0        0               0 Apr 24 19:30 stats
+
+sys/devices/system/cpu/cpu0/cpufreq/stats:
+-r--r--r--    1 0        0            4096 Apr 24 19:30 time_in_state
+-r--r--r--    1 0        0            4096 Apr 24 19:30 total_trans
+
+sys/devices/system/timer:
+drwxr-xr-x    2 0        0               0 Dec 31  1969 timer0
+
+sys/devices/system/timer/timer0:
+
+sys/firmware:
+
+sys/fs:
+
+sys/kernel:
+-rw-r--r--    1 0        0            4096 Apr 24 19:30 uevent_helper
+-r--r--r--    1 0        0            4096 Apr 24 19:30 uevent_seqnum
+
+sys/module:
+drwxr-xr-x    3 0        0               0 Dec 31  1999 8250
+drwxr-xr-x    3 0        0               0 Apr 24 19:30 EN2510_clnkdrv
+drwxr-xr-x    4 0        0               0 Apr 24 19:30 ath_dfs
+drwxr-xr-x    3 0        0               0 Apr 24 19:30 ath_hal
+drwxr-xr-x    4 0        0               0 Apr 24 19:30 ath_pci
+drwxr-xr-x    3 0        0               0 Apr 24 19:30 ath_rate_atheros
+drwxr-xr-x    3 0        0               0 Apr 24 19:30 btn
+drwxr-xr-x    3 0        0               0 Dec 31  1999 ehci_hcd
+drwxr-xr-x    3 0        0               0 Apr 24 19:30 igmp_proxy_mod
+drwxr-xr-x    3 0        0               0 Apr 24 19:30 kleds_mod
+drwxr-xr-x    3 0        0               0 Apr 24 19:30 log_chardev
+drwxr-xr-x    3 0        0               0 Apr 24 19:30 mv88e60xx
+drwxr-xr-x    3 0        0               0 Apr 24 19:30 one_module
+drwxr-xr-x    3 0        0               0 Apr 24 19:30 pppoe_relay
+drwxr-xr-x    3 0        0               0 Apr 24 19:30 qos_ingress
+drwxr-xr-x    3 0        0               0 Apr 24 19:30 rg_dhcp_pktfil
+drwxr-xr-x    3 0        0               0 Apr 24 19:30 rg_ipv4
+drwxr-xr-x    3 0        0               0 Apr 24 19:30 rg_pppoe_relay
+drwxr-xr-x    3 0        0               0 Apr 24 19:30 rg_stp
+drwxr-xr-x    3 0        0               0 Dec 31  1999 scsi_mod
+drwxr-xr-x    3 0        0               0 Apr 24 19:30 tcp_mss
+drwxr-xr-x    3 0        0               0 Dec 31  1999 uhci_hcd
+drwxr-xr-x    4 0        0               0 Apr 24 19:30 usb_storage
+drwxr-xr-x    3 0        0               0 Dec 31  1999 usbcore
+drwxr-xr-x    3 0        0               0 Apr 24 19:30 wlan
+drwxr-xr-x    3 0        0               0 Apr 24 19:30 wlan_acl
+drwxr-xr-x    3 0        0               0 Apr 24 19:30 wlan_ccmp
+drwxr-xr-x    3 0        0               0 Apr 24 19:30 wlan_scan_ap
+drwxr-xr-x    3 0        0               0 Apr 24 19:30 wlan_tkip
+drwxr-xr-x    3 0        0               0 Apr 24 19:30 wlan_wep
+drwxr-xr-x    3 0        0               0 Apr 24 19:30 wlan_xauth
+
+sys/module/8250:
+drwxr-xr-x    2 0        0               0 Apr 24 19:30 parameters
+
+sys/module/8250/parameters:
+-rw-r--r--    1 0        0            4096 Apr 24 19:30 nr_uarts
+-rw-r--r--    1 0        0            4096 Apr 24 19:30 share_irqs
+
+sys/module/EN2510_clnkdrv:
+-r--r--r--    1 0        0            4096 Apr 24 19:30 refcnt
+drwxr-xr-x    2 0        0               0 Dec 31  1999 sections
+
+sys/module/EN2510_clnkdrv/sections:
+
+sys/module/ath_dfs:
+drwxr-xr-x    2 0        0               0 Apr 24 19:30 parameters
+-r--r--r--    1 0        0            4096 Apr 24 19:30 refcnt
+drwxr-xr-x    2 0        0               0 Apr 24 19:30 sections
+
+sys/module/ath_dfs/parameters:
+-rw-------    1 0        0            4096 Apr 24 19:30 domainoverride
+-rw-------    1 0        0            4096 Apr 24 19:30 usenol
+
+sys/module/ath_dfs/sections:
+-r--r--r--    1 0        0            4096 Apr 24 19:30 __ksymtab
+-r--r--r--    1 0        0            4096 Apr 24 19:30 __ksymtab_strings
+-r--r--r--    1 0        0            4096 Apr 24 19:30 __param
+
+sys/module/ath_hal:
+-r--r--r--    1 0        0            4096 Apr 24 19:30 refcnt
+drwxr-xr-x    2 0        0               0 Apr 24 19:30 sections
+
+sys/module/ath_hal/sections:
+-r--r--r--    1 0        0            4096 Apr 24 19:30 __ksymtab
+-r--r--r--    1 0        0            4096 Apr 24 19:30 __ksymtab_strings
+
+sys/module/ath_pci:
+drwxr-xr-x    2 0        0               0 Apr 24 19:30 parameters
+-r--r--r--    1 0        0            4096 Apr 24 19:30 refcnt
+drwxr-xr-x    2 0        0               0 Apr 24 19:30 sections
+
+sys/module/ath_pci/parameters:
+-rw-------    1 0        0            4096 Apr 24 19:30 ath_numrxbufs
+-rw-------    1 0        0            4096 Apr 24 19:30 ath_numswbaperbc
+-rw-------    1 0        0            4096 Apr 24 19:30 countrycode
+-rw-------    1 0        0            4096 Apr 24 19:30 napi
+-rw-------    1 0        0            4096 Apr 24 19:30 napi_weight
+-rw-------    1 0        0            4096 Apr 24 19:30 outdoor
+-rw-------    1 0        0            4096 Apr 24 19:30 use_eeprom
+-rw-------    1 0        0            4096 Apr 24 19:30 xchanmode
+
+sys/module/ath_pci/sections:
+-r--r--r--    1 0        0            4096 Apr 24 19:30 __ksymtab
+-r--r--r--    1 0        0            4096 Apr 24 19:30 __ksymtab_strings
+-r--r--r--    1 0        0            4096 Apr 24 19:30 __param
+
+sys/module/ath_rate_atheros:
+-r--r--r--    1 0        0            4096 Apr 24 19:30 refcnt
+drwxr-xr-x    2 0        0               0 Apr 24 19:30 sections
+
+sys/module/ath_rate_atheros/sections:
+-r--r--r--    1 0        0            4096 Apr 24 19:30 __ksymtab
+-r--r--r--    1 0        0            4096 Apr 24 19:30 __ksymtab_strings
+
+sys/module/btn:
+-r--r--r--    1 0        0            4096 Apr 24 19:30 refcnt
+drwxr-xr-x    2 0        0               0 Dec 31  1999 sections
+
+sys/module/btn/sections:
+
+sys/module/ehci_hcd:
+drwxr-xr-x    2 0        0               0 Apr 24 19:30 parameters
+
+sys/module/ehci_hcd/parameters:
+-r--r--r--    1 0        0            4096 Apr 24 19:30 log2_irq_thresh
+-r--r--r--    1 0        0            4096 Apr 24 19:30 park
+
+sys/module/igmp_proxy_mod:
+-r--r--r--    1 0        0            4096 Apr 24 19:30 refcnt
+drwxr-xr-x    2 0        0               0 Apr 24 19:30 sections
+
+sys/module/igmp_proxy_mod/sections:
+-r--r--r--    1 0        0            4096 Apr 24 19:30 __ksymtab
+-r--r--r--    1 0        0            4096 Apr 24 19:30 __ksymtab_strings
+
+sys/module/kleds_mod:
+-r--r--r--    1 0        0            4096 Apr 24 19:30 refcnt
+drwxr-xr-x    2 0        0               0 Apr 24 19:30 sections
+
+sys/module/kleds_mod/sections:
+-r--r--r--    1 0        0            4096 Apr 24 19:30 __ksymtab
+-r--r--r--    1 0        0            4096 Apr 24 19:30 __ksymtab_strings
+
+sys/module/log_chardev:
+-r--r--r--    1 0        0            4096 Apr 24 19:30 refcnt
+drwxr-xr-x    2 0        0               0 Dec 31  1999 sections
+
+sys/module/log_chardev/sections:
+
+sys/module/mv88e60xx:
+-r--r--r--    1 0        0            4096 Apr 24 19:30 refcnt
+drwxr-xr-x    2 0        0               0 Dec 31  1999 sections
+
+sys/module/mv88e60xx/sections:
+
+sys/module/one_module:
+-r--r--r--    1 0        0            4096 Apr 24 19:30 refcnt
+drwxr-xr-x    2 0        0               0 Apr 24 19:30 sections
+
+sys/module/one_module/sections:
+-r--r--r--    1 0        0            4096 Apr 24 19:30 __ksymtab
+-r--r--r--    1 0        0            4096 Apr 24 19:30 __ksymtab_strings
+-r--r--r--    1 0        0            4096 Apr 24 19:30 __obsparm
+
+sys/module/pppoe_relay:
+-r--r--r--    1 0        0            4096 Apr 24 19:30 refcnt
+drwxr-xr-x    2 0        0               0 Apr 24 19:30 sections
+
+sys/module/pppoe_relay/sections:
+-r--r--r--    1 0        0            4096 Apr 24 19:30 __ksymtab
+-r--r--r--    1 0        0            4096 Apr 24 19:30 __ksymtab_strings
+
+sys/module/qos_ingress:
+-r--r--r--    1 0        0            4096 Apr 24 19:30 refcnt
+drwxr-xr-x    2 0        0               0 Dec 31  1999 sections
+
+sys/module/qos_ingress/sections:
+
+sys/module/rg_dhcp_pktfil:
+-r--r--r--    1 0        0            4096 Apr 24 19:30 refcnt
+drwxr-xr-x    2 0        0               0 Dec 31  1999 sections
+
+sys/module/rg_dhcp_pktfil/sections:
+
+sys/module/rg_ipv4:
+-r--r--r--    1 0        0            4096 Apr 24 19:30 refcnt
+drwxr-xr-x    2 0        0               0 Dec 31  1999 sections
+
+sys/module/rg_ipv4/sections:
+
+sys/module/rg_pppoe_relay:
+-r--r--r--    1 0        0            4096 Apr 24 19:30 refcnt
+drwxr-xr-x    2 0        0               0 Dec 31  1999 sections
+
+sys/module/rg_pppoe_relay/sections:
+
+sys/module/rg_stp:
+-r--r--r--    1 0        0            4096 Apr 24 19:30 refcnt
+drwxr-xr-x    2 0        0               0 Apr 24 19:30 sections
+
+sys/module/rg_stp/sections:
+-r--r--r--    1 0        0            4096 Apr 24 19:30 __ksymtab
+-r--r--r--    1 0        0            4096 Apr 24 19:30 __ksymtab_strings
+
+sys/module/scsi_mod:
+drwxr-xr-x    2 0        0               0 Apr 24 19:30 parameters
+
+sys/module/scsi_mod/parameters:
+-rw-r--r--    1 0        0            4096 Apr 24 19:30 default_dev_flags
+-rw-r--r--    1 0        0            4096 Apr 24 19:30 inq_timeout
+-rw-r--r--    1 0        0            4096 Apr 24 19:30 max_luns
+-rw-r--r--    1 0        0            4096 Apr 24 19:30 max_report_luns
+-rw-r--r--    1 0        0            4096 Apr 24 19:30 scsi_logging_level
+
+sys/module/tcp_mss:
+-r--r--r--    1 0        0            4096 Apr 24 19:30 refcnt
+drwxr-xr-x    2 0        0               0 Apr 24 19:30 sections
+
+sys/module/tcp_mss/sections:
+-r--r--r--    1 0        0            4096 Apr 24 19:30 __ksymtab
+-r--r--r--    1 0        0            4096 Apr 24 19:30 __ksymtab_strings
+
+sys/module/uhci_hcd:
+drwxr-xr-x    2 0        0               0 Apr 24 19:30 parameters
+
+sys/module/uhci_hcd/parameters:
+-rw-r--r--    1 0        0            4096 Apr 24 19:30 debug
+
+sys/module/usb_storage:
+drwxr-xr-x    2 0        0               0 Apr 24 19:30 parameters
+-r--r--r--    1 0        0            4096 Apr 24 19:30 refcnt
+drwxr-xr-x    2 0        0               0 Apr 24 19:30 sections
+
+sys/module/usb_storage/parameters:
+-rw-r--r--    1 0        0            4096 Apr 24 19:30 delay_use
+
+sys/module/usb_storage/sections:
+-r--r--r--    1 0        0            4096 Apr 24 19:30 __param
+
+sys/module/usbcore:
+drwxr-xr-x    2 0        0               0 Apr 24 19:30 parameters
+
+sys/module/usbcore/parameters:
+-r--r--r--    1 0        0            4096 Apr 24 19:30 blinkenlights
+-rw-r--r--    1 0        0            4096 Apr 24 19:30 old_scheme_first
+-rw-r--r--    1 0        0            4096 Apr 24 19:30 usbfs_snoop
+-rw-r--r--    1 0        0            4096 Apr 24 19:30 use_both_schemes
+
+sys/module/wlan:
+-r--r--r--    1 0        0            4096 Apr 24 19:30 refcnt
+drwxr-xr-x    2 0        0               0 Apr 24 19:30 sections
+
+sys/module/wlan/sections:
+-r--r--r--    1 0        0            4096 Apr 24 19:30 __ksymtab
+-r--r--r--    1 0        0            4096 Apr 24 19:30 __ksymtab_strings
+-r--r--r--    1 0        0            4096 Apr 24 19:30 __param
+
+sys/module/wlan_acl:
+-r--r--r--    1 0        0            4096 Apr 24 19:30 refcnt
+drwxr-xr-x    2 0        0               0 Dec 31  1999 sections
+
+sys/module/wlan_acl/sections:
+
+sys/module/wlan_ccmp:
+-r--r--r--    1 0        0            4096 Apr 24 19:30 refcnt
+drwxr-xr-x    2 0        0               0 Dec 31  1999 sections
+
+sys/module/wlan_ccmp/sections:
+
+sys/module/wlan_scan_ap:
+-r--r--r--    1 0        0            4096 Apr 24 19:30 refcnt
+drwxr-xr-x    2 0        0               0 Dec 31  1999 sections
+
+sys/module/wlan_scan_ap/sections:
+
+sys/module/wlan_tkip:
+-r--r--r--    1 0        0            4096 Apr 24 19:30 refcnt
+drwxr-xr-x    2 0        0               0 Dec 31  1999 sections
+
+sys/module/wlan_tkip/sections:
+
+sys/module/wlan_wep:
+-r--r--r--    1 0        0            4096 Apr 24 19:30 refcnt
+drwxr-xr-x    2 0        0               0 Dec 31  1999 sections
+
+sys/module/wlan_wep/sections:
+
+sys/module/wlan_xauth:
+-r--r--r--    1 0        0            4096 Apr 24 19:30 refcnt
+drwxr-xr-x    2 0        0               0 Dec 31  1999 sections
+
+sys/module/wlan_xauth/sections:
+
+tmp/:
+-rw-r--r--    1 0        0           40104 Dec 14  2007 cfg.xml
+srwxr-xr-x    1 0        0               0 Dec 14  2007 clink.sock.clink0
+srwxr-xr-x    1 0        0               0 Dec 14  2007 clink.sock.clink1
+-rwxr-xr-x    1 0        0           45763 Dec 14  2007 protype.xml
+
+var:
+drwxr-xr-x    2 0        0               0 Dec 14  2007 dbus
+-rw-r--r--    1 0        0            4374 Apr 24 19:31 hosts6.lst
+drwxr-xr-x    3 0        0               0 Dec 31  1969 lock
+drwxr-xr-x    2 0        0               0 Dec 31  1969 log
+drwxr-xr-x    3 0        0               0 Dec 14  2007 run
+srwxr-xr-x    1 0        0               0 Dec 14  2007 sock_tr69_data_server
+drwxr-xr-x    3 0        0               0 Dec 31  1969 state
+
+var/dbus:
+-rw-r--r--    1 0        0               4 Dec 14  2007 messagebus.pid
+srwxrwxrwx    1 0        0               0 Dec 14  2007 system_bus_socket
+
+var/lock:
+drwxr-xr-x    2 0        0               0 Dec 31  1969 subsys
+
+var/lock/subsys:
+
+var/log:
+
+var/run:
+drwxr-x---    2 0        0               0 Dec 14  2007 hostapd
+
+var/run/hostapd:
+srwxrwx---    1 0        0               0 Dec 14  2007 ath0
+
+var/state:
+drwxr-xr-x    2 0        0               0 Dec 31  1969 dhcp
+
+var/state/dhcp:
+/ # 

@@ -1,0 +1,17 @@
+Getting the following error?..
+
+     Traceback (most recent call last):
+       File "/home/ec2-user/environment/exercise-sns-sqs/FlaskApp/application.py", line 41, in <module>
+         JWKS = requests.get(JWKS_URL).json()["keys"]
+     KeyError: 'keys'
+
+SOLUTION..
+
+Update FlaskApp/config.py, changing..
+
+     AWS_REGION = "us-west-2"
+
+to..
+
+     AWS_REGION = "us-east-2"
+

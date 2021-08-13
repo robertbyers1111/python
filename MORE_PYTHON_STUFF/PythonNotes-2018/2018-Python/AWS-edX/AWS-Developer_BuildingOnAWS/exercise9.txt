@@ -1,0 +1,4 @@
+            pool-id: us-east-2_T8c718gob
+    app client name: WebsiteClient
+      app client id: 28ailhhl2mk61muo3rjb9cgjjj
+  app client secret: 1d365p8vh2237cnu7s1pu3tfdl8o4lmtqldomhu7ggafgqm2dg2

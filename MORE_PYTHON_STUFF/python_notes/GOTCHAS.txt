@@ -1,0 +1,18 @@
+
+1. spent several hours unable to run Popen because one of the args passed in was read from a file without using strip():
+
+    f = open(LOCKFILE, 'r')
+    for line in f:
+      if line.strip() != "":
+        pidval = line.strip()       <---- MUST USE THE '.strip()'
+    f.close()
+
+    if pidval == 0:
+      WARN("Failed to find valid pid in lockfile")
+      deletelockfile = True
+
+    else:
+      INFO("pid from lockfile:",pidval)
+      child = sp.Popen( ['/bin/ps', '--no-headers', '-opid', '-p%s' % pidval], shell=False, stdout=sp.PIPE, stderr=sp.PIPE)
+
+If I don't use the '.strip()', then the call to /bin/ps chokes on the pidval variable.

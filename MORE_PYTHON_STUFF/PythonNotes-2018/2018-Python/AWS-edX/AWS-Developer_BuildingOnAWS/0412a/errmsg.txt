@@ -1,0 +1,7 @@
+Unable to access your environment
+
+The AWS CloudFormation stack
+aws-cloud9-BuildingOnAWS-290ab7739c5548cbbfb689bdd454e359 failed with
+the error: Your quota allows for 0 more running instance(s). You
+requested at least 1.
+

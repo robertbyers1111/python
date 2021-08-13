@@ -1,0 +1,51 @@
+Exercise 3
+
+stack name: edx-vpc-stack
+VPC ID: vpc-02c0a7ef141e78608
+VPC Name:  edx-build-aws-vpc
+
+edx-subnet-private-a subnet-071ccd7b6dbcabb42 vpc-02c0a7ef141e78608 edx-build-aws-vpc 10.1.3.0/24 251 us-east-2a rtb-0b7760e8dddeabe62 acl-02d1e68845487025f
+edx-subnet-private-b subnet-034fcac7850da8dc7 vpc-02c0a7ef141e78608 edx-build-aws-vpc 10.1.4.0/24 251 us-east-2b rtb-0b7760e8dddeabe62 acl-02d1e68845487025f
+edx-subnet-public-a  subnet-09e422575e5c9e394 vpc-02c0a7ef141e78608 edx-build-aws-vpc 10.1.1.0/24 251 us-east-2a rtb-0bd3f568133527304 | edx-routetable-public acl-02d1e68845487025f
+edx-subnet-public-b  subnet-0edd78d70947ebf3c vpc-02c0a7ef141e78608 edx-build-aws-vpc 10.1.2.0/24 251 us-east-2b rtb-0bd3f568133527304 | edx-routetable-public acl-02d1e68845487025f
+
+sg-04a9c80c8d80ba7f9 default       vpc-02c0a7ef141e78608 | edx-build-aws-vpc   default VPC security group
+sg-086ac98c6057aadee exercise3-sg  vpc-02c0a7ef141e78608 | edx-build-aws-vpc   DESCR-exercise3-sg
+
+Security Group: sg-46d0d72d
+
+EC2 Name: Ex3WebServer
+EC2 Public IP: 18.221.204.17
+
+Exercise 4
+
+    IAM Policy: edXProjectPolicy
+    IAM User: edXProjectUser (Tr0m;AWS;b0n3)
+
+    User name: edXProjectUser
+    Password: Tr0m;AWS;b0n3
+    Access key ID: AKIAJD3WUZPY67BP7TLQ
+    Secret access key: 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
+    Console login link: https://915544826030.signin.aws.amazon.com/console
+
+    EC2 Instance: Ex4WebServer
+    EC2 Public IP: 18.188.197.44
+    Security group: exercise3-sg
+
+Exercise 5
+
+    S3 bucket: photobuck
+
+Exercise 9
+
+      cognito pool id: us-east-2_f3QpDoXBg
+        app client id: 3g9n8lsbf0758l49uln7qheucs
+    app client secret: b8jgcigtevrvsd9fq1b2k1ueh806ian12e1t28p6psi7bdqhmgd
+          domain name: rmbjr60.auth.us-east-2.amazoncognito.com
+         app username: rmbjr60@gmail.com / Tr0m@AWS@b0n3
+
+Exercise 11
+
+    NOTE: if getting keys error when launching app in cloud 9, check if
+    region has been changed from west to east in config.py
+

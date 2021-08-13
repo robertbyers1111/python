@@ -1,0 +1,131 @@
+From class section 2 lecture 7, ~20:00
+
+Browser inspector console commands (examples)..
+
+Using a CSS selector to find input field 2..
+
+ $$("input[id='ipt2')")
+
+Using XPATH to find 'button 4'..
+
+ FIRST: Find all buttons..
+  $x("//button")     #(the '//' matches everything from the root on down))
+ OUTPUT: all buttons (could be more than one)
+ NEXT: search for a specific button. Could use name, id or button's text..
+  $x("//button['@id='bt4']")
+
+# Suppose you want the price of Product 2, and two products are listed
+# with the same <div> structure. This means using css selector or xpath
+# can't narrow down to a single element. Solution is to find all divs
+# followed by a paragraph (<p>)
+#
+# This is best done with xpath, because we can easily formulate something
+# like "let me find a <div> that has a <p> underneath it"..
+
+ $x("//div/p")
+
+# In our example (from the class section 2 lecture 7, ~27:25), the above xpath still returns multiple values. Here's the relevant dom inspector result..
+
+<div class="fakeclass" id="div1">
+  <span><b>Product 1</b></span>
+  <p>
+    Price: $200
+  </p>
+</div>
+
+<div class="fakeclass" id="div1">
+  <span><b>Product 2</b></span>
+  <p>
+    Price: $200
+  </p>
+</div>
+
+# .. the only differentiating text is the 'Product 1' vs. 'Product 2' in
+# the <span> elements. So, the approach is: locate a span with the
+# desired text (e.g., 'Product 2'), then find the enclosing <div> and its
+# <p> underneath.
+
+# Actually, in our example, the text is inside a <b> tag. So we will
+# search for <b> tags, not <span> elements.
+
+# Note: there is no way to find an element by its text using CSS
+# selector, but there *IS* a way to do this with xpath, using the text()
+# function..
+
+$x("//b[text()='Product 2']")
+
+# .. ok that worked to locate the correct <b>. Now we want to go up two
+# levels (to the enclosing <div>) and back down to the very next <p>.
+#
+# In xpath, we go up a level with '/..', so we modify the query as
+# follows..
+
+$x("//b[text()='Product 2']/../../p")
+
+# .. yay! we got the element we want.
+#
+# Now, to get the price from that element..
+
+$x("//b[text()='Product 2']/../../p")[0]
+
+# .. which returns..
+#
+#    <p>
+#        Price = $200
+#      </p>
+#
+# .. and we could also strip the HTML off using this syntax..
+
+$x("//b[text()='Product 2']/../../p")[0].innerHTML
+
+# .. which returns..
+#
+#    "
+#        Price = $200
+#      "
+
+# Note: '#' is a shorthand in CSS selectors..
+
+$$("button#r1Btn")
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# Using .value() or .text()???..
+
+# See lecture 7, at 29:20. Says to use .value() for input fields, .text()
+# for text between tags (.e.g., <h4> some_text </h4>
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# Tools and Utilities (lecture 9)
+
+# When doing lots of mouse clicks, double-clicks, click-and-hold,
+# click-and-drag, etc. look into webdriver.common.ActionChains..
+
+  webdriver.common.ActionChains
+
+# When pop-ups occur during the usage case, use webdriver.common.alerts
+# which allows you to more easily deal with popups that require clicking
+# 'OK'..
+
+  webdriver.common.alerts
+
+# When testing touch screens, use..
+
+  webdriver.common.touchActions
+
+# When waiting for some specific page element to appear, use WebDriverWait
+# and expected_conditions..
+
+  webdriver.support.wait
+  webdriver.support.expected_conditions
+
+# (see lecture 9, ~19:00)
+
+# tip: always use explicit waits, not implicit (WebDriverWait is explicit)
+
+# For drop-down menus, use webdriver.support.select..
+
+  webdriver.support.select
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

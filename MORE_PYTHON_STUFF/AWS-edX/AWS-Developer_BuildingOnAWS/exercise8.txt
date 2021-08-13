@@ -1,0 +1,8 @@
+
+    PHOTOS_BUCKET: wtf0412a
+     FLASK_SECRET: zzzzzzzzzz 
+    DATABASE_HOST: edx-photos-db.cjhd9sspxndg.us-east-2.rds.amazonaws.com
+    DATABASE_USER: master
+DATABASE_PASSWORD: Tr0m;AWS;b0n3
+ DATABASE_DB_NAME: Photos
+

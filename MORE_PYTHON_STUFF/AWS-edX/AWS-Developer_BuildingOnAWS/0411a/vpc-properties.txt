@@ -1,0 +1,17 @@
+
+https://479769431312.signin.aws.amazon.com/console
+Access key ID: AKIAIT7OHNARZASTMCQQ
+Secret access key: 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
+Created user: edXProjectUser
+
+VPC ID: vpc-faccab92
+
+Subnets..
+
+Name                  Subnet ID       VPC                            IPv4 CIDR Available Addresses AvailabilityZone RouteTable NetworkACL
+
+edx-subnet-public-a   subnet-7c6af514 vpc-faccab92 edx-build-aws-vpc 10.1.1.0/24 251 us-east-2a rtb-64f6ae0c|edx-routetable-public acl-ee0d4b86
+edx-subnet-public-b   subnet-f7a7708d vpc-faccab92 edx-build-aws-vpc 10.1.2.0/24 251 us-east-2b rtb-64f6ae0c|edx-routetable-public acl-ee0d4b86
+edx-subnet-private-a  subnet-f76cf39f vpc-faccab92 edx-build-aws-vpc 10.1.3.0/24 251 us-east-2a rtb-5ae8b032 acl-ee0d4b86
+edx-subnet-private-b  subnet-f4a7708e vpc-faccab92 edx-build-aws-vpc 10.1.4.0/24 251 us-east-2b rtb-5ae8b032 acl-ee0d4b86
+

@@ -1,0 +1,83 @@
+#!/bin/bash
+
+#-------------------------------------------------------------------------
+# 1. COMPLETE SYSTEM
+#
+# Product: 'B11' sports statistics
+#
+# Features:
+#   + Collects player statistics
+#   + Abstractions and modularizations for different sports
+#   + Correlates draft pick number with future performance
+#   + Interface allows display of individual stats
+#   + Graphs draft/performance correlation (x: draft number, y: performance)
+#
+# Development..
+#   + Written in python
+#   + Version control with git
+#   + Repository is hosted on github
+#   + Application is hosted on AWS
+#   + Tested with a new test framework (to be developed in parallel)
+#   + Testing includes performance and scaling
+#   + Use Selenium for testing the interface
+#   + Use Jenkins for continuous integration
+#   + Use virtual machines during development
+#
+#   (containers???)
+#
+# Technologies used..
+#
+#   python
+#   virtualbox
+#   vagrant
+#   git/github
+#   selenium
+#   AWS
+#   flask
+#   ansible
+#   chef
+#   puppet
+#   REST
+#   OpenStack
+#   Jenkins
+# 
+#-------------------------------------------------------------------------
+# 1. Drag a window to another workspace in Mint
+# 
+#-------------------------------------------------------------------------
+# 1. Sudoku solver
+# 
+#-------------------------------------------------------------------------
+# 1. network testing
+#    a. pings at diff pkt sizes -> graph
+#    b. pings with different loads
+#    c. use selenium to stream while testing
+#    d. pings with strict routes
+#    e. do everything again but replace pings with curl to ????
+# 
+#-------------------------------------------------------------------------
+# 1. LAN device monitoring ... 
+#    a. graph of when they're using the net
+#    b. also how much
+#    c. ping them for benchmarks
+# 
+#-------------------------------------------------------------------------
+# 1. Router stats monitor..
+#    a. Gather stats from both routers using either telnet or curl (generalize the details, only the framework cares if using curl or telnet (or snmp), our tester only calls the abstraction layer)
+#
+#-------------------------------------------------------------------------
+# 1. sequences in pi and e, with stats & confidence interval
+#
+#-------------------------------------------------------------------------
+
+#-------------------------------------------------------------------------
+#Fail..
+# curl -u admin:The-Ark-1793 http://192.168.1.1/index.cgi\?active%5fpage=9096\&active%5fpage%5fstr=page%5fmon%5fadv%5fbandwidth\&req%5fmode=0\&mimic%5fbutton%5ffield=goto%3a+9096%2e%2e\&strip%5fpage%5ftop=0\&button%5fvalue=9096 \
+# | tr '<' '\012'
+
+curl \
+ -A 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36' \
+ http://192.168.1.1/ \
+ | tidy -iq
+
+#-------------------------------------------------------------------------

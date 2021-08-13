@@ -1,0 +1,61 @@
+METHOD: Sieve-hard-to-code
+Computing primes up to 10 ..
+Found 4 primes from 1 to 10
+Elapsed: 0:00:00.000160
+           2
+           3
+           5
+           7
+Computing primes up to 100 ..
+Found 26 primes from 1 to 100
+Elapsed: 0:00:00.000055
+           2
+           3
+           5
+           7
+          11
+          13
+          17
+          19
+          23
+          29
+          35
+          37
+          41
+          43
+          47
+          53
+          59
+          67
+          71
+          73
+          77
+          79
+          83
+          89
+          95
+          97
+Computing primes up to 1000 ..
+Computing primes up to 5000 ..
+Computing primes up to 10000 ..
+Computing primes up to 20000 ..
+Computing primes up to 30000 ..
+Computing primes up to 40000 ..
+Computing primes up to 50000 ..
+Computing primes up to 60000 ..
+Computing primes up to 70000 ..
+Computing primes up to 80000 ..
+Computing primes up to 90000 ..
+Computing primes up to 100000 ..
+Computing primes up to 200000 ..
+Computing primes up to 300000 ..
+Computing primes up to 400000 ..
+Computing primes up to 500000 ..
+Computing primes up to 600000 ..
+Computing primes up to 700000 ..
+Computing primes up to 800000 ..
+Computing primes up to 900000 ..
+Computing primes up to 1000000 ..
+Computing primes up to 10000000 ..
+Computing primes up to 100000000 ..
+Computing primes up to 1000000000 ..

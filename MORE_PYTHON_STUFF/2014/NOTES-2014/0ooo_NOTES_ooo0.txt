@@ -1,0 +1,147 @@
+
+#   +---------+
+#---| Tidbits |-----------------------------------------------------------------
+#   +---------+
+
+
+
+
+#- Floor division discards the fractional part
+
+    17 // 3        #(result is '5')
+
+
+
+
+#- Variable '_'
+
+    # (In interactive mode, the last printed expression is assigned to the variable '_')
+
+    >>> tax = 12.5 / 100
+    >>> price = 100.50
+    >>> price * tax
+    12.5625
+    >>> price + _
+    113.0625
+    >>> round(_, 2)
+    113.06
+
+    This variable should be treated as read-only by the user. Don’t explicitly
+    assign a value to it — you would create an independent local variable with the
+    same name masking the built-in variable with its magic behavior.
+
+
+
+
+#   +---------+
+#---| Strings |---
+#   +---------+
+
+
+
+    They can be enclosed in single quotes ('...') or double quotes ("...") with
+    the same result. '\' can be used to escape quotes:
+
+    >>> 'spam eggs'  # single quotes
+    'spam eggs'
+
+    >>> 'doesn\'t'  # use \' to escape the single quote...
+    "doesn't"
+
+    >>> "doesn't"  # ...or use double quotes instead
+    "doesn't"
+
+    >>> '"Yes," he said.'
+    '"Yes," he said.'
+
+    >>> "\"Yes,\" he said."
+    '"Yes," he said.'
+
+    >>> '"Isn\'t," she said.'
+    '"Isn\'t," she said.'
+
+
+
+#- Raw Strings in 'print()'
+
+    If you don’t want characters prefaced by \ to be interpreted as special
+    characters, you can use raw strings by adding an r before the first quote:
+
+    >>> print('C:\some\name')  # here \n means newline!
+    C:\some
+    ame
+
+    >>> print(r'C:\some\name')  # note the r before the quote
+    C:\some\name
+
+
+
+
+#- String literals (triple quotes)
+
+    String literals can span multiple lines. One way is using triple-quotes:
+    """...""" or '''...'''. End of lines are automatically included in the string,
+    but it’s possible to prevent this by adding a \ at the end of the line. The
+    following example:
+
+    print("""\
+       Usage: thingy [OPTIONS]
+          -h                        Display this usage message
+          -H hostname               Hostname to connect to
+    """)
+
+    produces the following output (note that the initial newline is not
+    included because of the '\'):
+
+         Usage: thingy [OPTIONS]
+            -h                        Display this usage message
+            -H hostname               Hostname to connect to
+
+
+
+
+#- Literal string concatenation
+
+    Strings can be concatenated (glued together) with the + operator, and
+    repeated with *:
+
+      # Repeat 'un' 3 times, then append 'ium'
+
+      >>> 3 * 'un' + 'ium'
+      'unununium'
+
+
+
+
+#-- Auto-concatenation.
+
+#-- Two or more string literals (i.e. the ones enclosed between quotes) next to
+#-- each other are automatically concatenated (!!!)
+
+    >>> 'Py' 'thon'
+    'Python'
+
+#-- NOTE: This only works with two literals though, not with variables or expressions:
+
+    >>> prefix = 'Py'
+    >>> prefix 'thon'  # can't concatenate a variable and a string literal
+      ...
+    SyntaxError: invalid syntax
+
+    >>> ('un' * 3) 'ium'
+      ...
+    SyntaxError: invalid syntax
+
+#-- If you want to concatenate variables or a variable and a literal, use +:
+
+    >>> prefix + 'thon'
+    'Python'
+
+#-- This feature is particularly useful when you want to break long strings:
+
+    >>> text = ('Put several strings within parentheses '
+                'to have them joined together.')
+
+    >>> text
+    'Put several strings within parentheses to have them joined together.'
+
